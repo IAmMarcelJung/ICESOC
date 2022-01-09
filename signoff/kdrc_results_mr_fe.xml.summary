@@ -1,0 +1,53 @@
+       0 cap2m.1 : min. cap2m width : 1.0um
+       0 cap2m.2a : min. cap2m spacing : 0.84um
+       0 cap2m.2b : min. cap2m spacing : 1.2um
+       0 cap2m.2b_a : min. spacing of m4_bot_plate : 1.2um
+       0 cap2m.3 : min. m4 enclosure of cap2m : 0.14um
+       0 cap2m.3_a : min. m4 enclosure of cap2m : 0.14um
+       0 cap2m.4 : min. cap2m enclosure of via4 : 0.14um
+       0 cap2m.5 : min. cap2m spacing to via4 : 0.14um
+       0 capm.1 : min. capm width : 1.0um
+       0 capm.2a : min. capm spacing : 0.84um
+       0 capm.2b : min. capm spacing : 1.2um
+       0 capm.2b_a : min. spacing of m3_bot_plate : 1.2um
+       0 capm.3 : min. capm and m3 enclosure of m3 : 0.14um
+       0 capm.3_a : min. m3 enclosure of capm : 0.14um
+       0 capm.4 : min. capm enclosure of via3 : 0.14um
+       0 capm.5 : min. capm spacing to via3 : 0.14um
+       0 difftap.1 : min. diff width across areaid:ce : 0.15um
+       0 difftap.1_a : min. diff width in periphery : 0.15um
+       0 difftap.1_b : min. tap width across areaid:ce : 0.15um
+       0 difftap.1_c : min. tap width in periphery : 0.15um
+       0 difftap.3 : min. difftap spacing : 0.27um
+       0 dnwell.2 : min. dnwell width : 3.0um
+       0 hvi.1 : min. hvi width : 0.6um
+       0 hvi.2a : min. hvi spacing : 0.7um
+       0 hvntm.1 : min. hvntm width : 0.7um
+       0 hvntm.2 : min. hvntm spacing : 0.7um
+       0 hvtp.1 : min. hvtp width : 0.38um
+       0 hvtp.2 : min. hvtp spacing : 0.38um
+       0 hvtr.1 : min. hvtr width : 0.38um
+       0 hvtr.2 : min. hvtr spacing : 0.38um
+       0 hvtr.2_a : hvtr must not overlap hvtp
+       0 licon.1 : licon should be rectangle
+       0 licon.1_a/b : minimum/maximum width of licon : 0.17um
+       0 licon.13 : min. difftap licon spacing to npc : 0.09um
+       0 licon.13_a : licon of diffTap in periphery must not overlap npc
+       0 licon.17 : Licons may not overlap both poly and (diff or tap)
+       0 lvtn.1a : min. lvtn width : 0.38um
+       0 lvtn.2 : min. lvtn spacing : 0.38um
+       0 ncm.1 : min. ncm width : 0.38um
+       0 ncm.2a : min. ncm spacing : 0.38um
+       0 npc.1 : min. npc width : 0.27um
+       0 npc.2 : min. npc spacing, should be mnually merge if less : 0.27um
+       0 nwell.1 : min. nwell width : 0.84um
+       0 nwell.2a : min. nwell spacing (merged if less) : 1.27um
+       0 poly.1a : min. poly width : 0.15um
+       0 poly.2 : min. poly spacing : 0.21um
+       0 rpm.1a : min. rpm width : 1.27um
+       0 rpm.2 : min. rpm spacing : 0.84um
+       0 tunm.1 : min. tunm width : 0.41um
+       0 tunm.2 : min. tunm spacing : 0.5um
+       0 urpm.1a : min. rpm width : 1.27um
+       0 urpm.2 : min. rpm spacing : 0.84um
+       0 total error(s) among 52 error type(s), 0 non-zero type(s)

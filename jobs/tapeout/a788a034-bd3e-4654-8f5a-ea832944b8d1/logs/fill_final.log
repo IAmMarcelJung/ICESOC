@@ -1,0 +1,112 @@
+
+Magic 8.3 revision 245 - Compiled on Tue Dec 28 14:40:46 UTC 2021.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(vendor): scaleFactor=2, multiplier=2
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/opt/scripts/generate_fill_final.tcl" from command line.
+CIF output style is now "wafflefill(tiled)"
+Writing final GDS
+   Generating output for cell caravel_00048192_fill_pattern_0_0
+Reading "caravel_00048192_fill_pattern_0_0".
+   Generating output for cell caravel_00048192_fill_pattern_1_0
+Reading "caravel_00048192_fill_pattern_1_0".
+   Generating output for cell caravel_00048192_fill_pattern_0_1
+Reading "caravel_00048192_fill_pattern_0_1".
+   Generating output for cell caravel_00048192_fill_pattern_1_1
+Reading "caravel_00048192_fill_pattern_1_1".
+   Generating output for cell caravel_00048192_fill_pattern_2_0
+Reading "caravel_00048192_fill_pattern_2_0".
+   Generating output for cell caravel_00048192_fill_pattern_2_1
+Reading "caravel_00048192_fill_pattern_2_1".
+   Generating output for cell caravel_00048192_fill_pattern_3_0
+Reading "caravel_00048192_fill_pattern_3_0".
+   Generating output for cell caravel_00048192_fill_pattern_3_1
+Reading "caravel_00048192_fill_pattern_3_1".
+   Generating output for cell caravel_00048192_fill_pattern_4_0
+Reading "caravel_00048192_fill_pattern_4_0".
+   Generating output for cell caravel_00048192_fill_pattern_4_1
+Reading "caravel_00048192_fill_pattern_4_1".
+   Generating output for cell caravel_00048192_fill_pattern_5_0
+Reading "caravel_00048192_fill_pattern_5_0".
+   Generating output for cell caravel_00048192_fill_pattern_5_1
+Reading "caravel_00048192_fill_pattern_5_1".
+   Generating output for cell caravel_00048192_fill_pattern_0_2
+Reading "caravel_00048192_fill_pattern_0_2".
+   Generating output for cell caravel_00048192_fill_pattern_1_2
+Reading "caravel_00048192_fill_pattern_1_2".
+   Generating output for cell caravel_00048192_fill_pattern_2_2
+Reading "caravel_00048192_fill_pattern_2_2".
+   Generating output for cell caravel_00048192_fill_pattern_3_2
+Reading "caravel_00048192_fill_pattern_3_2".
+   Generating output for cell caravel_00048192_fill_pattern_4_2
+Reading "caravel_00048192_fill_pattern_4_2".
+   Generating output for cell caravel_00048192_fill_pattern_5_2
+Reading "caravel_00048192_fill_pattern_5_2".
+   Generating output for cell caravel_00048192_fill_pattern_0_3
+Reading "caravel_00048192_fill_pattern_0_3".
+   Generating output for cell caravel_00048192_fill_pattern_1_3
+Reading "caravel_00048192_fill_pattern_1_3".
+   Generating output for cell caravel_00048192_fill_pattern_2_3
+Reading "caravel_00048192_fill_pattern_2_3".
+   Generating output for cell caravel_00048192_fill_pattern_3_3
+Reading "caravel_00048192_fill_pattern_3_3".
+   Generating output for cell caravel_00048192_fill_pattern_4_3
+Reading "caravel_00048192_fill_pattern_4_3".
+   Generating output for cell caravel_00048192_fill_pattern_5_3
+Reading "caravel_00048192_fill_pattern_5_3".
+   Generating output for cell caravel_00048192_fill_pattern_0_4
+Reading "caravel_00048192_fill_pattern_0_4".
+   Generating output for cell caravel_00048192_fill_pattern_1_4
+Reading "caravel_00048192_fill_pattern_1_4".
+   Generating output for cell caravel_00048192_fill_pattern_2_4
+Reading "caravel_00048192_fill_pattern_2_4".
+   Generating output for cell caravel_00048192_fill_pattern_3_4
+Reading "caravel_00048192_fill_pattern_3_4".
+   Generating output for cell caravel_00048192_fill_pattern_4_4
+Reading "caravel_00048192_fill_pattern_4_4".
+   Generating output for cell caravel_00048192_fill_pattern_5_4
+Reading "caravel_00048192_fill_pattern_5_4".
+   Generating output for cell caravel_00048192_fill_pattern_0_5
+Reading "caravel_00048192_fill_pattern_0_5".
+   Generating output for cell caravel_00048192_fill_pattern_1_5
+Reading "caravel_00048192_fill_pattern_1_5".
+   Generating output for cell caravel_00048192_fill_pattern_2_5
+Reading "caravel_00048192_fill_pattern_2_5".
+   Generating output for cell caravel_00048192_fill_pattern_3_5
+Reading "caravel_00048192_fill_pattern_3_5".
+   Generating output for cell caravel_00048192_fill_pattern_4_5
+Reading "caravel_00048192_fill_pattern_4_5".
+   Generating output for cell caravel_00048192_fill_pattern_5_5
+Reading "caravel_00048192_fill_pattern_5_5".
+   Generating output for cell caravel_00048192_fill_pattern_0_6
+Reading "caravel_00048192_fill_pattern_0_6".
+   Generating output for cell caravel_00048192_fill_pattern_1_6
+Reading "caravel_00048192_fill_pattern_1_6".
+   Generating output for cell caravel_00048192_fill_pattern_2_6
+Reading "caravel_00048192_fill_pattern_2_6".
+   Generating output for cell caravel_00048192_fill_pattern_3_6
+Reading "caravel_00048192_fill_pattern_3_6".
+   Generating output for cell caravel_00048192_fill_pattern_4_6
+Reading "caravel_00048192_fill_pattern_4_6".
+   Generating output for cell caravel_00048192_fill_pattern_5_6
+Reading "caravel_00048192_fill_pattern_5_6".
+   Generating output for cell caravel_00048192_fill_pattern_0_7
+Reading "caravel_00048192_fill_pattern_0_7".
+   Generating output for cell caravel_00048192_fill_pattern_1_7
+Reading "caravel_00048192_fill_pattern_1_7".
+   Generating output for cell caravel_00048192_fill_pattern_2_7
+Reading "caravel_00048192_fill_pattern_2_7".
+   Generating output for cell caravel_00048192_fill_pattern_3_7
+Reading "caravel_00048192_fill_pattern_3_7".
+   Generating output for cell caravel_00048192_fill_pattern_4_7
+Reading "caravel_00048192_fill_pattern_4_7".
+   Generating output for cell caravel_00048192_fill_pattern_5_7
+Reading "caravel_00048192_fill_pattern_5_7".
+   Generating output for cell caravel_00048192_fill_pattern
+Ended: 12/29/2021 00:38:35

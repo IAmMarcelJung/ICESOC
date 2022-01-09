@@ -1,0 +1,71 @@
+2021-12-28 20:46:02 - [INFO] - {{Project Git Info}} Repository: https://github.com/nguyendao-uom/ICESOC.git | Branch: main | Commit: 94e07c3d1bf6644b48bd07439c4fe73157a6c701
+2021-12-28 20:46:02 - [INFO] - {{INSTALLING CARAVEL}} Running `make install` in icesoc
+2021-12-28 20:46:11 - [INFO] - {{EXTRACTING GDS}} Extracting GDS files in: icesoc
+2021-12-28 20:46:15 - [INFO] - {{Project GDS Info}} user_project_wrapper: 4209d06457a4ab4aa33977aeabf76e6932655936
+2021-12-28 20:46:16 - [INFO] - {{Tools Info}} KLayout: v0.27.5 | Magic: v8.3.245
+2021-12-28 20:46:16 - [INFO] - {{PDKs Info}} Open PDKs: 476f7428f7f686de51a5164c702629a9b9f2da46 | Skywater PDK: c094b6e83a4f9298e47f696ec5a7fd53535ec5eb
+2021-12-28 20:46:16 - [INFO] - {{START}} Precheck Started, the full log 'precheck.log' will be located in 'icesoc/jobs/mpw_precheck/c0944096-2cc7-4f79-834c-dceb1928a2a5/logs'
+2021-12-28 20:46:16 - [INFO] - {{PRECHECK SEQUENCE}} Precheck will run the following checks: License Makefile Default Documentation Consistency XOR Magic DRC Klayout FEOL Klayout BEOL Klayout Offgrid Klayout Metal Minimum Clear Area Density Klayout Pin Label Purposes Overlapping Drawing Klayout ZeroArea
+2021-12-28 20:46:16 - [INFO] - {{STEP UPDATE}} Executing Check 1 of 13: License
+2021-12-28 20:46:17 - [INFO] - An approved LICENSE (Apache-2.0) was found in icesoc.
+2021-12-28 20:46:17 - [INFO] - {{MAIN LICENSE CHECK PASSED}} An approved LICENSE was found in project root.
+2021-12-28 20:46:18 - [INFO] - An approved LICENSE (Apache-2.0) was found in icesoc.
+2021-12-28 20:46:18 - [INFO] - An approved LICENSE (Apache-2.0) was found in icesoc.
+2021-12-28 20:46:18 - [INFO] - {{SUBMODULES LICENSE CHECK PASSED}} No prohibited LICENSE file(s) was found in project submodules
+2021-12-28 20:46:19 - [WARNING] - {{SPDX COMPLIANCE CHECK FAILED}} Found 167 non-compliant file(s) with the SPDX Standard.
+2021-12-28 20:46:19 - [INFO] - SPDX COMPLIANCE: NON-COMPLIANT FILE(S) PREVIEW: ['icesoc/Makefile', 'icesoc/docs/environment.yml', 'icesoc/docs/Makefile', 'icesoc/docs/source/index.rst', 'icesoc/docs/source/conf.py', 'icesoc/verilog/dv/Makefile', 'icesoc/verilog/dv/wb_test_icesoc/wb_test_icesoc_tb.v', 'icesoc/verilog/dv/wb_test_icesoc/Makefile', 'icesoc/verilog/dv/wb_test_icesoc/wb_test_icesoc.c', 'icesoc/verilog/dv/wb_test_icesoc/ibex_prog/test.c', 'icesoc/verilog/dv/wb_test_icesoc/ibex_prog/gen_program.py', 'icesoc/verilog/dv/wb_test_icesoc/ibex_prog/Makefile', 'icesoc/verilog/dv/wb_test_icesoc/ibex_prog/link.ld', 'icesoc/verilog/dv/wb_test_icesoc/ibex_prog/zkn.h', 'icesoc/verilog/dv/wb_test_icesoc/ibex_prog/crt.s']
+2021-12-28 20:46:19 - [INFO] - For the full SPDX compliance report check: icesoc/jobs/mpw_precheck/c0944096-2cc7-4f79-834c-dceb1928a2a5/logs/spdx_compliance_report.log
+2021-12-28 20:46:19 - [INFO] - {{STEP UPDATE}} Executing Check 2 of 13: Makefile
+2021-12-28 20:46:19 - [INFO] - {{MAKEFILE CHECK PASSED}} Makefile valid.
+2021-12-28 20:46:19 - [INFO] - {{STEP UPDATE}} Executing Check 3 of 13: Default
+2021-12-28 20:46:19 - [INFO] - {{README DEFAULT CHECK PASSED}} Project 'README.md' was modified and is not identical to the default 'README.md'
+2021-12-28 20:46:19 - [INFO] - {{CONTENT DEFAULT CHECK PASSED}} Project 'gds' was modified and is not identical to the default 'gds'
+2021-12-28 20:46:19 - [INFO] - {{STEP UPDATE}} Executing Check 4 of 13: Documentation
+2021-12-28 20:46:19 - [INFO] - {{DOCUMENTATION CHECK PASSED}} Project documentation is appropriate.
+2021-12-28 20:46:19 - [INFO] - {{STEP UPDATE}} Executing Check 5 of 13: Consistency
+2021-12-28 20:46:19 - [INFO] - Trying to get file https://raw.githubusercontent.com/efabless/caravel/e938b7dcf30360591aac7775251abd513bb8f72f/verilog/rtl/__user_project_wrapper.v
+2021-12-28 20:46:19 - [INFO] - Got file https://raw.githubusercontent.com/efabless/caravel/e938b7dcf30360591aac7775251abd513bb8f72f/verilog/rtl/__user_project_wrapper.v
+2021-12-28 20:46:19 - [INFO] - Trying to get file https://raw.githubusercontent.com/efabless/caravel/e938b7dcf30360591aac7775251abd513bb8f72f/verilog/rtl/defines.v
+2021-12-28 20:46:20 - [INFO] - Got file https://raw.githubusercontent.com/efabless/caravel/e938b7dcf30360591aac7775251abd513bb8f72f/verilog/rtl/defines.v
+2021-12-28 20:46:25 - [INFO] - HIERARCHY CHECK PASSED: Module user_project_wrapper is instantiated in caravel. 
+2021-12-28 20:46:25 - [INFO] - COMPLEXITY CHECK PASSED: Netlist caravel contains at least 8 instances (90 instances). 
+2021-12-28 20:46:25 - [INFO] - MODELING CHECK PASSED: Netlist caravel is structural.
+2021-12-28 20:46:25 - [INFO] - SUBMODULE HOOKS CHECK PASSED: All module ports for user_project_wrapper are correctly connected in the top level netlist caravel.
+2021-12-28 20:46:25 - [INFO] - POWER CONNECTIONS CHECK PASSED: All instances in caravel are connected to power
+2021-12-28 20:46:25 - [INFO] - {{NETLIST CONSISTENCY CHECK PASSED}} caravel netlist passed all consistency checks.
+2021-12-28 20:46:25 - [INFO] - PORTS CHECK PASSED: Netlist user_project_wrapper ports match the golden wrapper ports
+2021-12-28 20:46:25 - [INFO] - COMPLEXITY CHECK PASSED: Netlist user_project_wrapper contains at least 1 instances (1 instances). 
+2021-12-28 20:46:25 - [INFO] - MODELING CHECK PASSED: Netlist user_project_wrapper is structural.
+2021-12-28 20:46:25 - [INFO] - LAYOUT CHECK PASSED: The GDS layout for user_project_wrapper matches the provided structural netlist.
+2021-12-28 20:46:25 - [INFO] - POWER CONNECTIONS CHECK PASSED: All instances in user_project_wrapper are connected to power
+2021-12-28 20:46:25 - [INFO] - PORT TYPES CHECK PASSED: Netlist user_project_wrapper port types match the golden wrapper port types.
+2021-12-28 20:46:25 - [INFO] - {{NETLIST CONSISTENCY CHECK PASSED}} user_project_wrapper netlist passed all consistency checks.
+2021-12-28 20:46:25 - [INFO] - {{CONSISTENCY CHECK PASSED}} The user netlist and the top netlist are valid.
+2021-12-28 20:46:25 - [INFO] - {{STEP UPDATE}} Executing Check 6 of 13: XOR
+2021-12-28 20:46:25 - [INFO] - Trying to get file https://raw.githubusercontent.com/efabless/caravel/e938b7dcf30360591aac7775251abd513bb8f72f/gds/user_project_wrapper_empty.gds.gz
+2021-12-28 20:46:25 - [INFO] - Got file https://raw.githubusercontent.com/efabless/caravel/e938b7dcf30360591aac7775251abd513bb8f72f/gds/user_project_wrapper_empty.gds.gz
+2021-12-28 20:51:15 - [INFO] - {XOR CHECK UPDATE} Total XOR differences: 0, for more details view icesoc/jobs/mpw_precheck/c0944096-2cc7-4f79-834c-dceb1928a2a5/outputs/user_project_wrapper.xor.gds
+2021-12-28 20:51:15 - [INFO] - {{XOR CHECK PASSED}} The GDS file has no XOR violations.
+2021-12-28 20:51:15 - [INFO] - {{STEP UPDATE}} Executing Check 7 of 13: Magic DRC
+2021-12-28 22:04:10 - [INFO] - 0 DRC violations
+2021-12-28 22:04:10 - [INFO] - {{MAGIC DRC CHECK PASSED}} The GDS file, user_project_wrapper.gds, has no DRC violations.
+2021-12-28 22:04:10 - [INFO] - {{STEP UPDATE}} Executing Check 8 of 13: Klayout FEOL
+2021-12-28 22:06:08 - [INFO] - No DRC Violations found
+2021-12-28 22:06:08 - [INFO] - {{Klayout FEOL CHECK PASSED}} The GDS file, user_project_wrapper.gds, has no DRC violations.
+2021-12-28 22:06:08 - [INFO] - {{STEP UPDATE}} Executing Check 9 of 13: Klayout BEOL
+2021-12-28 22:25:48 - [INFO] - No DRC Violations found
+2021-12-28 22:25:48 - [INFO] - {{Klayout BEOL CHECK PASSED}} The GDS file, user_project_wrapper.gds, has no DRC violations.
+2021-12-28 22:25:48 - [INFO] - {{STEP UPDATE}} Executing Check 10 of 13: Klayout Offgrid
+2021-12-28 22:29:38 - [INFO] - No DRC Violations found
+2021-12-28 22:29:38 - [INFO] - {{Klayout Offgrid CHECK PASSED}} The GDS file, user_project_wrapper.gds, has no DRC violations.
+2021-12-28 22:29:38 - [INFO] - {{STEP UPDATE}} Executing Check 11 of 13: Klayout Metal Minimum Clear Area Density
+2021-12-28 22:31:17 - [INFO] - No DRC Violations found
+2021-12-28 22:31:17 - [INFO] - {{Klayout Metal Minimum Clear Area Density CHECK PASSED}} The GDS file, user_project_wrapper.gds, has no DRC violations.
+2021-12-28 22:31:17 - [INFO] - {{STEP UPDATE}} Executing Check 12 of 13: Klayout Pin Label Purposes Overlapping Drawing
+2021-12-28 22:32:01 - [INFO] - No DRC Violations found
+2021-12-28 22:32:01 - [INFO] - {{Klayout Pin Label Purposes Overlapping Drawing CHECK PASSED}} The GDS file, user_project_wrapper.gds, has no DRC violations.
+2021-12-28 22:32:01 - [INFO] - {{STEP UPDATE}} Executing Check 13 of 13: Klayout ZeroArea
+2021-12-28 22:32:07 - [INFO] - No DRC Violations found
+2021-12-28 22:32:07 - [INFO] - {{Klayout ZeroArea CHECK PASSED}} The GDS file, user_project_wrapper.gds, has no DRC violations.
+2021-12-28 22:32:07 - [INFO] - {{FINISH}} Executing Finished, the full log 'precheck.log' can be found in 'icesoc/jobs/mpw_precheck/c0944096-2cc7-4f79-834c-dceb1928a2a5/logs'
+2021-12-28 22:32:07 - [INFO] - {{SUCCESS}} All Checks Passed !!!

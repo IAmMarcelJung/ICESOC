@@ -1,0 +1,70 @@
+/root/project/verilog/rtl/user_defines.v not found, using default /opt/caravel/verilog/rtl/user_defines.v
+Step 1:  Create new cells for new GPIO default vectors.
+Creating new layout file /root/project/mag/gpio_defaults_block_0403.mag
+Creating new gate-level verilog file /root/project/verilog/gl/gpio_defaults_block_0403.v
+Layout file /root/project/mag/gpio_defaults_block_0403.mag already exists and does not need to be generated.
+Gate-level verilog file /root/project/verilog/gl/gpio_defaults_block_0403.v already exists and does not need to be generated.
+Layout file /root/project/mag/gpio_defaults_block_0403.mag already exists and does not need to be generated.
+Gate-level verilog file /root/project/verilog/gl/gpio_defaults_block_0403.v already exists and does not need to be generated.
+Layout file /root/project/mag/gpio_defaults_block_0403.mag already exists and does not need to be generated.
+Gate-level verilog file /root/project/verilog/gl/gpio_defaults_block_0403.v already exists and does not need to be generated.
+Layout file /root/project/mag/gpio_defaults_block_0403.mag already exists and does not need to be generated.
+Gate-level verilog file /root/project/verilog/gl/gpio_defaults_block_0403.v already exists and does not need to be generated.
+Layout file /root/project/mag/gpio_defaults_block_0403.mag already exists and does not need to be generated.
+Gate-level verilog file /root/project/verilog/gl/gpio_defaults_block_0403.v already exists and does not need to be generated.
+Layout file /root/project/mag/gpio_defaults_block_0403.mag already exists and does not need to be generated.
+Gate-level verilog file /root/project/verilog/gl/gpio_defaults_block_0403.v already exists and does not need to be generated.
+Layout file /root/project/mag/gpio_defaults_block_0403.mag already exists and does not need to be generated.
+Gate-level verilog file /root/project/verilog/gl/gpio_defaults_block_0403.v already exists and does not need to be generated.
+Layout file /root/project/mag/gpio_defaults_block_0403.mag already exists and does not need to be generated.
+Gate-level verilog file /root/project/verilog/gl/gpio_defaults_block_0403.v already exists and does not need to be generated.
+Layout file /root/project/mag/gpio_defaults_block_0403.mag already exists and does not need to be generated.
+Gate-level verilog file /root/project/verilog/gl/gpio_defaults_block_0403.v already exists and does not need to be generated.
+Layout file /root/project/mag/gpio_defaults_block_0403.mag already exists and does not need to be generated.
+Gate-level verilog file /root/project/verilog/gl/gpio_defaults_block_0403.v already exists and does not need to be generated.
+Layout file /root/project/mag/gpio_defaults_block_0403.mag already exists and does not need to be generated.
+Gate-level verilog file /root/project/verilog/gl/gpio_defaults_block_0403.v already exists and does not need to be generated.
+Layout file /root/project/mag/gpio_defaults_block_0403.mag already exists and does not need to be generated.
+Gate-level verilog file /root/project/verilog/gl/gpio_defaults_block_0403.v already exists and does not need to be generated.
+Layout file /root/project/mag/gpio_defaults_block_0403.mag already exists and does not need to be generated.
+Gate-level verilog file /root/project/verilog/gl/gpio_defaults_block_0403.v already exists and does not need to be generated.
+Layout file /root/project/mag/gpio_defaults_block_0403.mag already exists and does not need to be generated.
+Gate-level verilog file /root/project/verilog/gl/gpio_defaults_block_0403.v already exists and does not need to be generated.
+Layout file /root/project/mag/gpio_defaults_block_0403.mag already exists and does not need to be generated.
+Gate-level verilog file /root/project/verilog/gl/gpio_defaults_block_0403.v already exists and does not need to be generated.
+Layout file /root/project/mag/gpio_defaults_block_0403.mag already exists and does not need to be generated.
+Gate-level verilog file /root/project/verilog/gl/gpio_defaults_block_0403.v already exists and does not need to be generated.
+Layout file /root/project/mag/gpio_defaults_block_0403.mag already exists and does not need to be generated.
+Gate-level verilog file /root/project/verilog/gl/gpio_defaults_block_0403.v already exists and does not need to be generated.
+Layout file /root/project/mag/gpio_defaults_block_0403.mag already exists and does not need to be generated.
+Gate-level verilog file /root/project/verilog/gl/gpio_defaults_block_0403.v already exists and does not need to be generated.
+Layout file /root/project/mag/gpio_defaults_block_0403.mag already exists and does not need to be generated.
+Gate-level verilog file /root/project/verilog/gl/gpio_defaults_block_0403.v already exists and does not need to be generated.
+Layout file /root/project/mag/gpio_defaults_block_0403.mag already exists and does not need to be generated.
+Gate-level verilog file /root/project/verilog/gl/gpio_defaults_block_0403.v already exists and does not need to be generated.
+Layout file /root/project/mag/gpio_defaults_block_0403.mag already exists and does not need to be generated.
+Gate-level verilog file /root/project/verilog/gl/gpio_defaults_block_0403.v already exists and does not need to be generated.
+Layout file /root/project/mag/gpio_defaults_block_0403.mag already exists and does not need to be generated.
+Gate-level verilog file /root/project/verilog/gl/gpio_defaults_block_0403.v already exists and does not need to be generated.
+Layout file /root/project/mag/gpio_defaults_block_0403.mag already exists and does not need to be generated.
+Gate-level verilog file /root/project/verilog/gl/gpio_defaults_block_0403.v already exists and does not need to be generated.
+Layout file /root/project/mag/gpio_defaults_block_0403.mag already exists and does not need to be generated.
+Gate-level verilog file /root/project/verilog/gl/gpio_defaults_block_0403.v already exists and does not need to be generated.
+Layout file /root/project/mag/gpio_defaults_block_0403.mag already exists and does not need to be generated.
+Gate-level verilog file /root/project/verilog/gl/gpio_defaults_block_0403.v already exists and does not need to be generated.
+Layout file /root/project/mag/gpio_defaults_block_0403.mag already exists and does not need to be generated.
+Gate-level verilog file /root/project/verilog/gl/gpio_defaults_block_0403.v already exists and does not need to be generated.
+Layout file /root/project/mag/gpio_defaults_block_0403.mag already exists and does not need to be generated.
+Gate-level verilog file /root/project/verilog/gl/gpio_defaults_block_0403.v already exists and does not need to be generated.
+Layout file /root/project/mag/gpio_defaults_block_0403.mag already exists and does not need to be generated.
+Gate-level verilog file /root/project/verilog/gl/gpio_defaults_block_0403.v already exists and does not need to be generated.
+Layout file /root/project/mag/gpio_defaults_block_0403.mag already exists and does not need to be generated.
+Gate-level verilog file /root/project/verilog/gl/gpio_defaults_block_0403.v already exists and does not need to be generated.
+Layout file /root/project/mag/gpio_defaults_block_0403.mag already exists and does not need to be generated.
+Gate-level verilog file /root/project/verilog/gl/gpio_defaults_block_0403.v already exists and does not need to be generated.
+Layout file /root/project/mag/gpio_defaults_block_0403.mag already exists and does not need to be generated.
+Gate-level verilog file /root/project/verilog/gl/gpio_defaults_block_0403.v already exists and does not need to be generated.
+Layout file /root/project/mag/gpio_defaults_block_0403.mag already exists and does not need to be generated.
+Gate-level verilog file /root/project/verilog/gl/gpio_defaults_block_0403.v already exists and does not need to be generated.
+Step 2:  Modify top-level layouts to use the specified defaults.
+Done.

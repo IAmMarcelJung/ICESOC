@@ -1,0 +1,58 @@
+fom_density.drc:: sourcing design file=/mnt/uffs/user/u5221_nguyenv/design/icesoc/jobs/tapeout/a788a034-bd3e-4654-8f5a-ea832944b8d1/outputs/caravel_00048192.gds topcell=caravel_00048192 ...
+done.
+flattening chip boundary...
+done.
+step size = 70.0
+llx=5.965 lly=6.0 urx=3594.035 ury=5194.0
+x_cnt = 51
+y_cnt = 74
+dbu = 0.001
+bbox_area = 18614907.16
+calculating subtile areas (= 3774)...
+tiles per step = 10
+calculating window step densities (= 2730)...
+{{ CHECK }} 0/2730
+{{ CHECK }} 65/2730
+{{ CHECK }} 130/2730
+{{ CHECK }} 195/2730
+{{ CHECK }} 260/2730
+{{ CHECK }} 325/2730
+{{ CHECK }} 390/2730
+{{ CHECK }} 455/2730
+{{ CHECK }} 520/2730
+{{ CHECK }} 585/2730
+{{ CHECK }} 650/2730
+{{ CHECK }} 715/2730
+{{ CHECK }} 780/2730
+{{ CHECK }} 845/2730
+{{ CHECK }} 910/2730
+{{ CHECK }} 975/2730
+{{ CHECK }} 1040/2730
+{{ CHECK }} 1105/2730
+{{ CHECK }} 1170/2730
+{{ CHECK }} 1235/2730
+{{ CHECK }} 1300/2730
+{{ CHECK }} 1365/2730
+{{ CHECK }} 1430/2730
+{{ CHECK }} 1495/2730
+{{ CHECK }} 1560/2730
+{{ CHECK }} 1625/2730
+{{ CHECK }} 1690/2730
+{{ CHECK }} 1755/2730
+{{ CHECK }} 1820/2730
+{{ CHECK }} 1885/2730
+{{ CHECK }} 1950/2730
+{{ CHECK }} 2015/2730
+{{ CHECK }} 2080/2730
+{{ CHECK }} 2145/2730
+{{ CHECK }} 2210/2730
+{{ CHECK }} 2275/2730
+{{ CHECK }} 2340/2730
+{{ CHECK }} 2405/2730
+{{ CHECK }} 2470/2730
+{{ CHECK }} 2535/2730
+{{ CHECK }} 2600/2730
+{{ CHECK }} 2665/2730
+minimum fom density  = 0.3430
+maximum fom density  = 0.4957
+finish received: success = true

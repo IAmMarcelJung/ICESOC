@@ -1,0 +1,17 @@
+export CARAVEL_ROOT=/opt/caravel && make -f /opt/caravel/Makefile check-env
+make[1]: Entering directory `/root/project'
+make[1]: Nothing to be done for `check-env'.
+make[1]: Leaving directory `/root/project'
+export CARAVEL_ROOT=/opt/caravel && make -f /opt/caravel/Makefile uncompress
+make[1]: Entering directory `/root/project'
+gds/user_project_wrapper.gds.gz -> gds/user_project_wrapper.gds
+All files are uncompressed!
+make[1]: Leaving directory `/root/project'
+export CARAVEL_ROOT=/opt/caravel && make -f /opt/caravel/Makefile uncompress-caravel
+make[1]: Entering directory `/root/project'
+cd /opt/caravel && \
+make uncompress
+make[2]: Entering directory `/opt/caravel'
+All files are uncompressed!
+make[2]: Leaving directory `/opt/caravel'
+make[1]: Leaving directory `/root/project'

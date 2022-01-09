@@ -1,0 +1,1443 @@
+
+Magic 8.3 revision 245 - Compiled on Tue Dec 28 15:10:32 UTC 2021.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(vendor): scaleFactor=2, multiplier=2
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/opt/checks/drc_checks/magic/magic_drc_check.tcl" from command line.
+Detected an SRAM module
+Pre-loading a maglef of the SRAM block: sky130_sram_1kbyte_1rw1r_32x256_8
+Scaled magic input cell sky130_sram_1kbyte_1rw1r_32x256_8 geometry by factor of 2
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: user_project_wrapper
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_11".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_12".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_13".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_14".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_16".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_29".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_28".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m1_w0_360_sli_dli_da_p".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m1_w1_120_sli_dli_da_p".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m2_w0_740_sli_dli_da_p".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m2_w1_260_sli_dli_da_p".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_15".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m1_w0_740_sactive_dli".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m1_w0_740_sli_dactive".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m1_w1_120_sli_dli".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m1_w7_000_sli_dli_da_p".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m1_w7_000_sli_dli_da_p".
+Reading "sky130_fd_bd_sram__openram_dp_nand2_dec".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec".
+CIF file read warning: CIF style sky130(vendor): units rescaled by factor of 5 / 1
+Reading "sky130_fd_bd_sram__openram_dp_nand3_dec".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m3_w1_680_sli_dli_da_p".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m3_w1_680_sli_dli_da_p".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m7_w1_680_sli_dli_da_p".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m7_w2_000_sli_dli_da_p".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m18_w2_000_sli_dli_da_p".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m18_w2_000_sli_dli_da_p".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m22_w2_000_sli_dli_da_p".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m22_w2_000_sli_dli_da_p".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_20".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_17".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_and2_dec".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m1_w2_880_sli_dli".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_23".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_21".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_22".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m1_w0_550_sli_dli".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pdriver".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pnand2".
+Reading "sky130_fd_bd_sram__openram_dff".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_2".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_1".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_3".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m12_w2_000_sli_dli_da_p".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m12_w2_000_sli_dli_da_p".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m4_w1_260_sli_dli_da_p".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m4_w2_000_sli_dli_da_p".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_16".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m1_w0_740_sactive_dactive".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_15".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m24_w2_000_sli_dli_da_p".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m24_w2_000_sli_dli_da_p".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m8_w2_000_sli_dli_da_p".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m8_w2_000_sli_dli_da_p".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m3_w2_000_sli_dli_da_p".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m3_w2_000_sli_dli_da_p".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m40_w2_000_sli_dli_da_p".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m40_w2_000_sli_dli_da_p".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m13_w2_000_sli_dli_da_p".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m13_w2_000_sli_dli_da_p".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m5_w1_680_sli_dli_da_p".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m5_w2_000_sli_dli_da_p".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m2_w1_260_sli_dli_da_p".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m2_w2_000_sli_dli_da_p".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m39_w2_000_sli_dli_da_p".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m39_w2_000_sli_dli_da_p".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_wordline_driver".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_hierarchical_predecode3x8".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_hierarchical_predecode2x4".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_27".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_26".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_0".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_25".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_24".
+Reading "sky130_fd_bd_sram__openram_sense_amp".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_1".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_column_mux".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pand2".
+Reading "sky130_fd_bd_sram__openram_write_driver".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_0".
+Reading "sky130_fd_bd_sram__openram_dp_cell_cap_row".
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_cap_row" (byte position 251850): Unknown layer/datatype in boundary, layer=33 type=42
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_cap_row" (byte position 252554): Unknown layer/datatype in boundary, layer=33 type=43
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_cap_row" (byte position 253514): Unknown layer/datatype in boundary, layer=22 type=21
+Reading "sky130_fd_bd_sram__openram_dp_cell_cap_col".
+Reading "sky130_fd_bd_sram__openram_dp_cell_dummy".
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_dummy" (byte position 272322): Unknown layer/datatype in boundary, layer=33 type=42
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_dummy" (byte position 276098): Unknown layer/datatype in boundary, layer=33 type=43
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_dummy" (byte position 280290): Unknown layer/datatype in boundary, layer=22 type=21
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_dummy" (byte position 280738): Unknown layer/datatype in boundary, layer=22 type=22
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_dummy" (byte position 280994): Unknown layer/datatype in boundary, layer=235 type=0
+Reading "sky130_fd_bd_sram__openram_dp_cell_replica".
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_replica" (byte position 299374): Unknown layer/datatype in boundary, layer=33 type=42
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_replica" (byte position 303150): Unknown layer/datatype in boundary, layer=33 type=43
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_replica" (byte position 307342): Unknown layer/datatype in boundary, layer=22 type=21
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_replica" (byte position 308302): Unknown layer/datatype in boundary, layer=22 type=22
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_replica" (byte position 308558): Unknown layer/datatype in boundary, layer=235 type=0
+Reading "sky130_fd_bd_sram__openram_dp_cell".
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell" (byte position 327090): Unknown layer/datatype in boundary, layer=33 type=42
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell" (byte position 330866): Unknown layer/datatype in boundary, layer=33 type=43
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell" (byte position 335058): Unknown layer/datatype in boundary, layer=22 type=21
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell" (byte position 336018): Unknown layer/datatype in boundary, layer=22 type=22
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell" (byte position 336274): Unknown layer/datatype in boundary, layer=235 type=0
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_0".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_0".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_0".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_18".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_17".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_11".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_6".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_19".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_4".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pnand3".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_3".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_14".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_13".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_12".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_10".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_9".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_8".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_7".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_20".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_and2_dec_0".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_wordline_driver_array".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_hierarchical_decoder".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array_0".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_sense_amp_array".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_write_mask_and_array".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_write_driver_array".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_9".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_8".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_row_cap_array_0".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_row_cap_array".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_col_cap_array".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_col_cap_array_0".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_dummy_array".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_replica_column_0".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_replica_column".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_bitcell_array".
+    5000 uses
+Reading "sky130_fd_sc_hd__decap_6_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__fill_2_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__fill_4_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__decap_6_ibex_top_gds".
+Reading "sky130_fd_sc_hd__fill_2_ibex_top_gds".
+Reading "sky130_fd_sc_hd__fill_4_ibex_top_gds".
+Reading "sky130_fd_sc_hd__decap_6_E_CPU_IO_bot_gds".
+Reading "sky130_fd_sc_hd__fill_2_E_CPU_IO_bot_gds".
+Reading "sky130_fd_sc_hd__fill_4_E_CPU_IO_bot_gds".
+Reading "sky130_fd_sc_hd__decap_6_W_CPU_IO_bot_gds".
+Reading "sky130_fd_sc_hd__fill_2_W_CPU_IO_bot_gds".
+Reading "sky130_fd_sc_hd__fill_4_W_CPU_IO_bot_gds".
+Reading "sky130_fd_sc_hd__decap_6_RegFile_gds".
+Reading "sky130_fd_sc_hd__fill_2_RegFile_gds".
+Reading "sky130_fd_sc_hd__fill_4_RegFile_gds".
+Reading "sky130_fd_sc_hd__decap_6_LUT4AB_gds".
+Reading "sky130_fd_sc_hd__fill_2_LUT4AB_gds".
+Reading "sky130_fd_sc_hd__fill_4_LUT4AB_gds".
+Reading "sky130_fd_sc_hd__decap_6_DSP_gds".
+Reading "sky130_fd_sc_hd__fill_2_DSP_gds".
+Reading "sky130_fd_sc_hd__fill_4_DSP_gds".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_33".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_1".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_array".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pand2_0".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_5".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_delay_chain".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pand3_0".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pand3".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_2".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_1".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_array_0".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_6".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinvbuf".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_port_address_0".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_port_address".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_port_data_0".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_port_data".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_replica_bitcell_array".
+Reading "sky130_fd_sc_hd__a2111oi_0".
+Reading "sky130_ef_sc_hd__fill_8_flexbex_ibex_core_gds".
+Reading "sky130_ef_sc_hd__fill_12_flexbex_ibex_core_gds".
+Reading "sky130_ef_sc_hd__decap_12_flexbex_ibex_core_gds".
+Moving label "VGND" from space to metal1 in cell sky130_ef_sc_hd__decap_12_flexbex_ibex_core_gds.
+Moving label "VNB" from space to metal1 in cell sky130_ef_sc_hd__decap_12_flexbex_ibex_core_gds.
+Moving label "decap_12" from space to metal1 in cell sky130_ef_sc_hd__decap_12_flexbex_ibex_core_gds.
+Reading "sky130_fd_sc_hd__a41o_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__a32o_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__a31oi_2_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__a22o_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__a22o_2_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__a31oi_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__a31o_2_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__a22oi_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__a21oi_2_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__a21oi_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__a21o_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__a21boi_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__a21bo_2_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__a2bb2oi_2_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__a2bb2oi_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__a2bb2o_2_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__a2bb2o_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__and4b_2_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__and4b_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__and4_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__and3b_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__and3_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__and3_2_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__and2b_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__and2_2_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__and2_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__a2111oi_2_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__a2111o_1_flexbex_ibex_core_gds".
+CIF file read warning: Input off lambda grid by 2/5; snapped to grid.
+Reading "sky130_fd_sc_hd__a311oi_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__a221o_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__a311o_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__a211o_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__dfrtp_2_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__decap_3_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__decap_4_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__decap_8_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__clkinv_16_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__clkinv_4_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__clkinv_2_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__clkbuf_2_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__clkbuf_4_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__clkbuf_8_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__clkbuf_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__buf_8_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__buf_6_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__buf_4_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__buf_2_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__buf_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__and4bb_2_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__dlxtn_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__diode_2_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__dfxtp_2_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__dfstp_2_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__inv_6_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__inv_4_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__fill_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__nor3_2_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__nor3_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__nor2_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__nand3_2".
+Reading "sky130_fd_sc_hd__mux4_2_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__mux4_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__nand2_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__mux2_4_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__mux2_2_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__mux2_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__conb_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__inv_2_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__nand2_2_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__nor2_2_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__o41a_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__o32a_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__o31ai_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__o31a_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__o22ai_2_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__o22ai_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__o22a_2_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__o22a_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__o21bai_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__o21ba_2_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__o21ai_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__o21ai_2_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__o21a_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__o2bb2ai_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__o2bb2a_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__nor4_2_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__nor4_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__or4bb_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__or4b_2_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__or4_2_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__or4_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__or3b_2_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__or3_2_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__or3_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__or2b_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__or2_2_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__o2111ai_2_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__o311a_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__o2111a_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__o221ai_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__o221a_2_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__o211ai_2_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__o211ai_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__o211a_2_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__tapvpwrvgnd_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__xnor2_1_flexbex_ibex_core_gds".
+Reading "sky130_fd_sc_hd__xor2_1_flexbex_ibex_core_gds".
+Reading "flexbex_ibex_core_VIA6".
+Reading "flexbex_ibex_core_VIA5".
+Reading "flexbex_ibex_core_VIA4".
+Reading "flexbex_ibex_core_VIA3".
+Reading "flexbex_ibex_core_VIA2".
+Reading "flexbex_ibex_core_VIA1".
+Reading "flexbex_ibex_core_VIA0".
+Reading "L1M1_PR_R_flexbex_ibex_core_gds".
+Reading "M1M2_PR_MR_flexbex_ibex_core_gds".
+Reading "M1M2_PR_R_flexbex_ibex_core_gds".
+Reading "M1M2_PR_M_flexbex_ibex_core_gds".
+Reading "M3M4_PR_flexbex_ibex_core_gds".
+Reading "M2M3_PR_flexbex_ibex_core_gds".
+Reading "M1M2_PR_flexbex_ibex_core_gds".
+Reading "L1M1_PR_flexbex_ibex_core_gds".
+Reading "sky130_ef_sc_hd__fill_8_ibex_top_gds".
+Reading "sky130_ef_sc_hd__fill_12_ibex_top_gds".
+Reading "sky130_ef_sc_hd__decap_12_ibex_top_gds".
+Moving label "VGND" from space to metal1 in cell sky130_ef_sc_hd__decap_12_ibex_top_gds.
+Moving label "VNB" from space to metal1 in cell sky130_ef_sc_hd__decap_12_ibex_top_gds.
+Moving label "decap_12" from space to metal1 in cell sky130_ef_sc_hd__decap_12_ibex_top_gds.
+Reading "sky130_fd_sc_hd__a41o_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__a32o_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__a31oi_2".
+Reading "sky130_fd_sc_hd__a22o_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__a22o_2".
+Reading "sky130_fd_sc_hd__a31oi_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__a31o_2_ibex_top_gds".
+Reading "sky130_fd_sc_hd__a22oi_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__a21oi_2".
+Reading "sky130_fd_sc_hd__a21oi_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__a21o_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__a21boi_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__a21bo_2_ibex_top_gds".
+Reading "sky130_fd_sc_hd__a2bb2oi_2_ibex_top_gds".
+Reading "sky130_fd_sc_hd__a2bb2oi_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__a2bb2o_2".
+Reading "sky130_fd_sc_hd__a2bb2o_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__and4b_2".
+Reading "sky130_fd_sc_hd__and4b_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__and4_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__and4_2".
+Reading "sky130_fd_sc_hd__and3b_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__and3b_2".
+Reading "sky130_fd_sc_hd__and3_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__and3_2_ibex_top_gds".
+Reading "sky130_fd_sc_hd__and2b_2".
+Reading "sky130_fd_sc_hd__and2b_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__and2_4".
+Reading "sky130_fd_sc_hd__and2_2".
+Reading "sky130_fd_sc_hd__and2_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__a2111oi_2".
+Reading "sky130_fd_sc_hd__a2111oi_1".
+Reading "sky130_fd_sc_hd__a2111o_1".
+Reading "sky130_fd_sc_hd__a311oi_2".
+Reading "sky130_fd_sc_hd__a311oi_1".
+Reading "sky130_fd_sc_hd__a221o_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__a221o_2".
+Reading "sky130_fd_sc_hd__a221oi_1".
+Reading "sky130_fd_sc_hd__a311o_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__a211oi_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__a211o_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__a41o_2".
+Reading "sky130_fd_sc_hd__dfrtp_2_ibex_top_gds".
+Reading "sky130_fd_sc_hd__decap_3_ibex_top_gds".
+Reading "sky130_fd_sc_hd__decap_4_ibex_top_gds".
+Reading "sky130_fd_sc_hd__decap_8_ibex_top_gds".
+Reading "sky130_fd_sc_hd__clkinv_16_ibex_top_gds".
+Reading "sky130_fd_sc_hd__clkinv_8_ibex_top_gds".
+Reading "sky130_fd_sc_hd__clkinv_4_ibex_top_gds".
+Reading "sky130_fd_sc_hd__clkinv_2_ibex_top_gds".
+Reading "sky130_fd_sc_hd__clkbuf_2_ibex_top_gds".
+Reading "sky130_fd_sc_hd__clkbuf_4_ibex_top_gds".
+Reading "sky130_fd_sc_hd__clkbuf_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__buf_12_ibex_top_gds".
+Reading "sky130_fd_sc_hd__buf_8_ibex_top_gds".
+Reading "sky130_fd_sc_hd__buf_6_ibex_top_gds".
+Reading "sky130_fd_sc_hd__buf_4_ibex_top_gds".
+Reading "sky130_fd_sc_hd__buf_2_ibex_top_gds".
+Reading "sky130_fd_sc_hd__buf_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__and4bb_2".
+Reading "sky130_fd_sc_hd__dlxtn_1".
+Reading "sky130_fd_sc_hd__dfxtp_2_ibex_top_gds".
+Reading "sky130_fd_sc_hd__dfstp_2_ibex_top_gds".
+Reading "sky130_fd_sc_hd__inv_6_ibex_top_gds".
+Reading "sky130_fd_sc_hd__inv_4_ibex_top_gds".
+Reading "sky130_fd_sc_hd__fill_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__nor3b_1".
+Reading "sky130_fd_sc_hd__nor3_2_ibex_top_gds".
+Reading "sky130_fd_sc_hd__nor3_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__nor2_4".
+Reading "sky130_fd_sc_hd__nor2_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__nand4b_2".
+Reading "sky130_fd_sc_hd__nand4_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__nand3b_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__mux4_2_ibex_top_gds".
+Reading "sky130_fd_sc_hd__mux4_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__nand2b_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__nand2_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__mux2i_1".
+Reading "sky130_fd_sc_hd__mux2_4_ibex_top_gds".
+Reading "sky130_fd_sc_hd__mux2_2_ibex_top_gds".
+Reading "sky130_fd_sc_hd__mux2_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__conb_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__inv_2_ibex_top_gds".
+Reading "sky130_fd_sc_hd__nand2_2_ibex_top_gds".
+Reading "sky130_fd_sc_hd__nor2_2_ibex_top_gds".
+Reading "sky130_fd_sc_hd__o41a_2".
+Reading "sky130_fd_sc_hd__o41a_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__o32a_2".
+Reading "sky130_fd_sc_hd__o32a_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__o31ai_2".
+Reading "sky130_fd_sc_hd__o31ai_1".
+Reading "sky130_fd_sc_hd__o31a_2".
+Reading "sky130_fd_sc_hd__o31a_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__o22ai_2".
+Reading "sky130_fd_sc_hd__o22ai_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__o22a_2".
+Reading "sky130_fd_sc_hd__o22a_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__o21bai_1".
+Reading "sky130_fd_sc_hd__o21ba_2_ibex_top_gds".
+Reading "sky130_fd_sc_hd__o21ai_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__o21ai_2".
+Reading "sky130_fd_sc_hd__o21a_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__o2bb2ai_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__o2bb2a_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__nor4_2".
+Reading "sky130_fd_sc_hd__nor4_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__or4bb_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__or4b_2_ibex_top_gds".
+Reading "sky130_fd_sc_hd__or4_2_ibex_top_gds".
+Reading "sky130_fd_sc_hd__or4_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__or3b_2_ibex_top_gds".
+Reading "sky130_fd_sc_hd__or3_2_ibex_top_gds".
+Reading "sky130_fd_sc_hd__or3_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__or2b_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__or2_2_ibex_top_gds".
+Reading "sky130_fd_sc_hd__or2_1".
+Reading "sky130_fd_sc_hd__o2111ai_2".
+Reading "sky130_fd_sc_hd__o2111ai_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__o311a_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__o2111a_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__o221ai_2".
+Reading "sky130_fd_sc_hd__o221ai_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__o221a_2_ibex_top_gds".
+Reading "sky130_fd_sc_hd__o211ai_4".
+Reading "sky130_fd_sc_hd__o211ai_2".
+Reading "sky130_fd_sc_hd__o211ai_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__o211a_2_ibex_top_gds".
+Reading "sky130_fd_sc_hd__tapvpwrvgnd_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__xnor2_1_ibex_top_gds".
+Reading "sky130_fd_sc_hd__xor2_1_ibex_top_gds".
+Reading "ibex_top_VIA6".
+Reading "ibex_top_VIA5".
+Reading "ibex_top_VIA4".
+Reading "ibex_top_VIA3".
+Reading "ibex_top_VIA2".
+Reading "ibex_top_VIA1".
+Reading "ibex_top_VIA0".
+Reading "L1M1_PR_R_ibex_top_gds".
+Reading "M1M2_PR_MR_ibex_top_gds".
+Reading "M1M2_PR_R_ibex_top_gds".
+Reading "M3M4_PR_ibex_top_gds".
+Reading "M2M3_PR_ibex_top_gds".
+Reading "M1M2_PR_M_ibex_top_gds".
+Reading "M1M2_PR_ibex_top_gds".
+Reading "L1M1_PR_ibex_top_gds".
+Reading "sky130_ef_sc_hd__fill_8_E_CPU_IO_bot_gds".
+Reading "sky130_ef_sc_hd__fill_12_E_CPU_IO_bot_gds".
+Reading "sky130_ef_sc_hd__decap_12_E_CPU_IO_bot_gds".
+Moving label "VGND" from space to metal1 in cell sky130_ef_sc_hd__decap_12_E_CPU_IO_bot_gds.
+Moving label "VNB" from space to metal1 in cell sky130_ef_sc_hd__decap_12_E_CPU_IO_bot_gds.
+Moving label "decap_12" from space to metal1 in cell sky130_ef_sc_hd__decap_12_E_CPU_IO_bot_gds.
+Reading "sky130_fd_sc_hd__decap_8_E_CPU_IO_bot_gds".
+Reading "sky130_fd_sc_hd__clkinv_16_E_CPU_IO_bot_gds".
+Reading "sky130_fd_sc_hd__clkinv_8_E_CPU_IO_bot_gds".
+Reading "sky130_fd_sc_hd__clkinv_4_E_CPU_IO_bot_gds".
+Reading "sky130_fd_sc_hd__clkbuf_16_E_CPU_IO_bot_gds".
+Reading "sky130_fd_sc_hd__clkbuf_1_E_CPU_IO_bot_gds".
+Reading "sky130_fd_sc_hd__buf_8_E_CPU_IO_bot_gds".
+Reading "sky130_fd_sc_hd__buf_2_E_CPU_IO_bot_gds".
+Reading "sky130_fd_sc_hd__buf_1_E_CPU_IO_bot_gds".
+Reading "sky130_fd_sc_hd__dlxbp_1_E_CPU_IO_bot_gds".
+Reading "sky130_fd_sc_hd__dfxtp_2_E_CPU_IO_bot_gds".
+Reading "sky130_fd_sc_hd__fill_1_E_CPU_IO_bot_gds".
+Reading "sky130_fd_sc_hd__mux2_1_E_CPU_IO_bot_gds".
+Reading "sky130_fd_sc_hd__conb_1_E_CPU_IO_bot_gds".
+Reading "sky130_fd_sc_hd__tapvpwrvgnd_1_E_CPU_IO_bot_gds".
+Reading "E_CPU_IO_bot_VIA6".
+Reading "E_CPU_IO_bot_VIA5".
+Reading "E_CPU_IO_bot_VIA4".
+Reading "E_CPU_IO_bot_VIA3".
+Reading "E_CPU_IO_bot_VIA2".
+Reading "E_CPU_IO_bot_VIA1".
+Reading "E_CPU_IO_bot_VIA0".
+Reading "M1M2_PR_M_E_CPU_IO_bot_gds".
+Reading "M3M4_PR_E_CPU_IO_bot_gds".
+Reading "M1M2_PR_R_E_CPU_IO_bot_gds".
+Reading "M2M3_PR_E_CPU_IO_bot_gds".
+Reading "M1M2_PR_E_CPU_IO_bot_gds".
+Reading "L1M1_PR_E_CPU_IO_bot_gds".
+Reading "sky130_ef_sc_hd__fill_8_W_CPU_IO_bot_gds".
+Reading "sky130_ef_sc_hd__fill_12_W_CPU_IO_bot_gds".
+Reading "sky130_ef_sc_hd__decap_12_W_CPU_IO_bot_gds".
+Moving label "VGND" from space to metal1 in cell sky130_ef_sc_hd__decap_12_W_CPU_IO_bot_gds.
+Moving label "VNB" from space to metal1 in cell sky130_ef_sc_hd__decap_12_W_CPU_IO_bot_gds.
+Moving label "decap_12" from space to metal1 in cell sky130_ef_sc_hd__decap_12_W_CPU_IO_bot_gds.
+Reading "sky130_fd_sc_hd__decap_8_W_CPU_IO_bot_gds".
+Reading "sky130_fd_sc_hd__clkinv_16_W_CPU_IO_bot_gds".
+Reading "sky130_fd_sc_hd__clkinv_8_W_CPU_IO_bot_gds".
+Reading "sky130_fd_sc_hd__clkinv_4_W_CPU_IO_bot_gds".
+Reading "sky130_fd_sc_hd__clkbuf_16_W_CPU_IO_bot_gds".
+Reading "sky130_fd_sc_hd__clkbuf_1_W_CPU_IO_bot_gds".
+Reading "sky130_fd_sc_hd__buf_8_W_CPU_IO_bot_gds".
+Reading "sky130_fd_sc_hd__dlxbp_1_W_CPU_IO_bot_gds".
+Reading "sky130_fd_sc_hd__dfxtp_2_W_CPU_IO_bot_gds".
+Reading "sky130_fd_sc_hd__fill_1_W_CPU_IO_bot_gds".
+Reading "sky130_fd_sc_hd__mux2_1_W_CPU_IO_bot_gds".
+Reading "sky130_fd_sc_hd__conb_1_W_CPU_IO_bot_gds".
+Reading "sky130_fd_sc_hd__tapvpwrvgnd_1_W_CPU_IO_bot_gds".
+Reading "W_CPU_IO_bot_VIA6".
+Reading "W_CPU_IO_bot_VIA5".
+Reading "W_CPU_IO_bot_VIA4".
+Reading "W_CPU_IO_bot_VIA3".
+Reading "W_CPU_IO_bot_VIA2".
+Reading "W_CPU_IO_bot_VIA1".
+Reading "W_CPU_IO_bot_VIA0".
+Reading "M1M2_PR_M_W_CPU_IO_bot_gds".
+Reading "M1M2_PR_MR_W_CPU_IO_bot_gds".
+Reading "M3M4_PR_W_CPU_IO_bot_gds".
+Reading "M2M3_PR_W_CPU_IO_bot_gds".
+Reading "M1M2_PR_R_W_CPU_IO_bot_gds".
+Reading "M1M2_PR_W_CPU_IO_bot_gds".
+Reading "L1M1_PR_W_CPU_IO_bot_gds".
+Reading "sky130_fd_sc_hd__decap_3_E_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__decap_4_E_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__decap_6_E_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__decap_8_E_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__clkinv_16_E_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__clkinv_8_E_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__clkinv_4_E_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__clkbuf_4_E_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__clkbuf_16_E_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__clkbuf_1_E_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__buf_8_E_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__buf_1_E_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__dlygate4sd2_1_E_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__dlxbp_1_E_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__diode_2_E_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__dfxtp_2_E_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__fill_8_E_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__fill_4_E_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__fill_2_E_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__fill_1_E_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__mux2_1_E_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__conb_1_E_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__tapvpwrvgnd_1_E_CPU_IO_gds".
+Reading "E_CPU_IO_VIA6".
+Reading "E_CPU_IO_VIA5".
+Reading "E_CPU_IO_VIA4".
+Reading "E_CPU_IO_VIA3".
+Reading "E_CPU_IO_VIA2".
+Reading "E_CPU_IO_VIA1".
+Reading "E_CPU_IO_VIA0".
+Reading "M1M2_PR_M_E_CPU_IO_gds".
+Reading "M3M4_PR_E_CPU_IO_gds".
+Reading "M2M3_PR_E_CPU_IO_gds".
+Reading "M1M2_PR_E_CPU_IO_gds".
+Reading "L1M1_PR_E_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__decap_3_W_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__decap_4_W_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__decap_6_W_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__decap_8_W_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__clkinv_8_W_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__clkinv_4_W_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__clkinv_16_W_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__clkbuf_16".
+Reading "sky130_fd_sc_hd__clkbuf_4_W_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__clkbuf_1_W_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__buf_8_W_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__dlygate4sd2_1_W_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__dlxbp_1_W_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__dfxtp_2_W_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__fill_8_W_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__fill_4_W_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__fill_2_W_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__fill_1_W_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__mux2_1_W_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__conb_1_W_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__tapvpwrvgnd_1_W_CPU_IO_gds".
+Reading "W_CPU_IO_VIA6".
+Reading "W_CPU_IO_VIA5".
+Reading "W_CPU_IO_VIA4".
+Reading "W_CPU_IO_VIA3".
+Reading "W_CPU_IO_VIA2".
+Reading "W_CPU_IO_VIA1".
+Reading "W_CPU_IO_VIA0".
+Reading "M1M2_PR_R_W_CPU_IO_gds".
+Reading "M1M2_PR_M_W_CPU_IO_gds".
+Reading "M2M3_PR_W_CPU_IO_gds".
+Reading "M1M2_PR_W_CPU_IO_gds".
+Reading "M3M4_PR_W_CPU_IO_gds".
+Reading "L1M1_PR_W_CPU_IO_gds".
+Reading "sky130_fd_sc_hd__decap_3_W_IO_gds".
+Reading "sky130_fd_sc_hd__decap_4_W_IO_gds".
+Reading "sky130_fd_sc_hd__decap_6_W_IO_gds".
+Reading "sky130_fd_sc_hd__decap_8_W_IO_gds".
+Reading "sky130_fd_sc_hd__clkdlybuf4s50_1_W_IO_gds".
+Reading "sky130_fd_sc_hd__clkbuf_1_W_IO_gds".
+Reading "sky130_fd_sc_hd__buf_8_W_IO_gds".
+Reading "sky130_fd_sc_hd__buf_1_W_IO_gds".
+Reading "sky130_fd_sc_hd__dlygate4sd3_1_W_IO_gds".
+Reading "sky130_fd_sc_hd__dlygate4sd2_1_W_IO_gds".
+Reading "sky130_fd_sc_hd__dlxbp_1_W_IO_gds".
+Reading "sky130_fd_sc_hd__diode_2_W_IO_gds".
+Reading "sky130_fd_sc_hd__dfxtp_2_W_IO_gds".
+Reading "sky130_fd_sc_hd__fill_2_W_IO_gds".
+Reading "sky130_fd_sc_hd__fill_1_W_IO_gds".
+Reading "sky130_fd_sc_hd__mux4_2_W_IO_gds".
+Reading "sky130_fd_sc_hd__mux2_1_W_IO_gds".
+Reading "sky130_fd_sc_hd__conb_1_W_IO_gds".
+Reading "sky130_fd_sc_hd__inv_2_W_IO_gds".
+Reading "sky130_fd_sc_hd__tapvpwrvgnd_1_W_IO_gds".
+Reading "W_IO_VIA6".
+Reading "W_IO_VIA5".
+Reading "W_IO_VIA4".
+Reading "W_IO_VIA3".
+Reading "W_IO_VIA2".
+Reading "W_IO_VIA1".
+Reading "W_IO_VIA0".
+Reading "M1M2_PR_MR_W_IO_gds".
+Reading "M3M4_PR_W_IO_gds".
+Reading "M1M2_PR_M_W_IO_gds".
+Reading "M2M3_PR_W_IO_gds".
+Reading "M1M2_PR_W_IO_gds".
+Reading "L1M1_PR_W_IO_gds".
+Reading "sky130_fd_sc_hd__decap_6_S_term_single2_gds".
+Reading "sky130_fd_sc_hd__decap_8_S_term_single2_gds".
+Reading "sky130_fd_sc_hd__clkinv_4_S_term_single2_gds".
+Reading "sky130_fd_sc_hd__clkbuf_1_S_term_single2_gds".
+Reading "sky130_fd_sc_hd__buf_8_S_term_single2_gds".
+Reading "sky130_fd_sc_hd__buf_1_S_term_single2_gds".
+Reading "sky130_fd_sc_hd__dlygate4sd3_1_S_term_single2_gds".
+Reading "sky130_fd_sc_hd__fill_8_S_term_single2_gds".
+Reading "sky130_fd_sc_hd__fill_4_S_term_single2_gds".
+Reading "sky130_fd_sc_hd__fill_2_S_term_single2_gds".
+Reading "sky130_fd_sc_hd__fill_1_S_term_single2_gds".
+Reading "sky130_fd_sc_hd__tapvpwrvgnd_1_S_term_single2_gds".
+Reading "S_term_single2_VIA6".
+Reading "S_term_single2_VIA5".
+Reading "S_term_single2_VIA4".
+Reading "S_term_single2_VIA3".
+Reading "S_term_single2_VIA2".
+Reading "S_term_single2_VIA1".
+Reading "S_term_single2_VIA0".
+Reading "M1M2_PR_M_S_term_single2_gds".
+Reading "M2M3_PR_S_term_single2_gds".
+Reading "M1M2_PR_S_term_single2_gds".
+Reading "L1M1_PR_S_term_single2_gds".
+Reading "sky130_fd_sc_hd__decap_6_S_term_DSP_gds".
+Reading "sky130_fd_sc_hd__decap_8_S_term_DSP_gds".
+Reading "sky130_fd_sc_hd__clkinv_4_S_term_DSP_gds".
+Reading "sky130_fd_sc_hd__clkbuf_1_S_term_DSP_gds".
+Reading "sky130_fd_sc_hd__buf_8_S_term_DSP_gds".
+Reading "sky130_fd_sc_hd__buf_1_S_term_DSP_gds".
+Reading "sky130_fd_sc_hd__dlygate4sd3_1_S_term_DSP_gds".
+Reading "sky130_fd_sc_hd__fill_8_S_term_DSP_gds".
+Reading "sky130_fd_sc_hd__fill_4_S_term_DSP_gds".
+Reading "sky130_fd_sc_hd__fill_2_S_term_DSP_gds".
+Reading "sky130_fd_sc_hd__fill_1_S_term_DSP_gds".
+Reading "sky130_fd_sc_hd__tapvpwrvgnd_1_S_term_DSP_gds".
+Reading "S_term_DSP_VIA6".
+Reading "S_term_DSP_VIA5".
+Reading "S_term_DSP_VIA4".
+Reading "S_term_DSP_VIA3".
+Reading "S_term_DSP_VIA2".
+Reading "S_term_DSP_VIA1".
+Reading "S_term_DSP_VIA0".
+Reading "M1M2_PR_M_S_term_DSP_gds".
+Reading "M2M3_PR_S_term_DSP_gds".
+Reading "M1M2_PR_S_term_DSP_gds".
+Reading "L1M1_PR_S_term_DSP_gds".
+Reading "sky130_fd_sc_hd__decap_6_S_term_single_gds".
+Reading "sky130_fd_sc_hd__decap_8_S_term_single_gds".
+Reading "sky130_fd_sc_hd__clkinv_4_S_term_single_gds".
+Reading "sky130_fd_sc_hd__clkbuf_1_S_term_single_gds".
+Reading "sky130_fd_sc_hd__buf_8_S_term_single_gds".
+Reading "sky130_fd_sc_hd__buf_1_S_term_single_gds".
+Reading "sky130_fd_sc_hd__dlygate4sd3_1_S_term_single_gds".
+Reading "sky130_fd_sc_hd__fill_8_S_term_single_gds".
+Reading "sky130_fd_sc_hd__fill_4_S_term_single_gds".
+Reading "sky130_fd_sc_hd__fill_2_S_term_single_gds".
+Reading "sky130_fd_sc_hd__fill_1_S_term_single_gds".
+Reading "sky130_fd_sc_hd__conb_1_S_term_single_gds".
+Reading "sky130_fd_sc_hd__tapvpwrvgnd_1_S_term_single_gds".
+Reading "S_term_single_VIA6".
+Reading "S_term_single_VIA5".
+Reading "S_term_single_VIA4".
+Reading "S_term_single_VIA3".
+Reading "S_term_single_VIA2".
+Reading "S_term_single_VIA1".
+Reading "S_term_single_VIA0".
+Reading "M1M2_PR_M_S_term_single_gds".
+Reading "M2M3_PR_S_term_single_gds".
+Reading "L1M1_PR_S_term_single_gds".
+Reading "M1M2_PR_S_term_single_gds".
+Reading "sky130_fd_sc_hd__decap_4_S_term_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__decap_6_S_term_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__decap_8_S_term_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__clkinv_4_S_term_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__clkbuf_1_S_term_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__buf_8_S_term_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__dlygate4sd3_1_S_term_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__dlygate4sd2_1_S_term_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__diode_2_S_term_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__fill_8_S_term_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__fill_4_S_term_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__fill_2_S_term_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__fill_1_S_term_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__tapvpwrvgnd_1_S_term_RAM_IO_gds".
+Reading "S_term_RAM_IO_VIA6".
+Reading "S_term_RAM_IO_VIA5".
+Reading "S_term_RAM_IO_VIA4".
+Reading "S_term_RAM_IO_VIA3".
+Reading "S_term_RAM_IO_VIA2".
+Reading "S_term_RAM_IO_VIA1".
+Reading "S_term_RAM_IO_VIA0".
+Reading "M1M2_PR_M_S_term_RAM_IO_gds".
+Reading "M2M3_PR_S_term_RAM_IO_gds".
+Reading "M1M2_PR_S_term_RAM_IO_gds".
+Reading "L1M1_PR_S_term_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__decap_8_N_term_single2_gds".
+Reading "sky130_fd_sc_hd__clkinv_4_N_term_single2_gds".
+Reading "sky130_fd_sc_hd__clkbuf_1_N_term_single2_gds".
+Reading "sky130_fd_sc_hd__buf_8_N_term_single2_gds".
+Reading "sky130_fd_sc_hd__buf_2_N_term_single2_gds".
+Reading "sky130_fd_sc_hd__dlygate4sd3_1_N_term_single2_gds".
+Reading "sky130_fd_sc_hd__fill_8_N_term_single2_gds".
+Reading "sky130_fd_sc_hd__fill_4_N_term_single2_gds".
+Reading "sky130_fd_sc_hd__fill_2_N_term_single2_gds".
+Reading "sky130_fd_sc_hd__fill_1_N_term_single2_gds".
+Reading "sky130_fd_sc_hd__tapvpwrvgnd_1_N_term_single2_gds".
+Reading "N_term_single2_VIA6".
+Reading "N_term_single2_VIA5".
+Reading "N_term_single2_VIA4".
+Reading "N_term_single2_VIA3".
+Reading "N_term_single2_VIA2".
+Reading "N_term_single2_VIA1".
+Reading "N_term_single2_VIA0".
+Reading "M1M2_PR_M_N_term_single2_gds".
+Reading "M2M3_PR_N_term_single2_gds".
+Reading "M1M2_PR_N_term_single2_gds".
+Reading "L1M1_PR_N_term_single2_gds".
+Reading "sky130_fd_sc_hd__decap_8_N_term_DSP_gds".
+Reading "sky130_fd_sc_hd__clkinv_4_N_term_DSP_gds".
+Reading "sky130_fd_sc_hd__clkbuf_1_N_term_DSP_gds".
+Reading "sky130_fd_sc_hd__buf_8_N_term_DSP_gds".
+Reading "sky130_fd_sc_hd__buf_2_N_term_DSP_gds".
+Reading "sky130_fd_sc_hd__dlygate4sd3_1_N_term_DSP_gds".
+Reading "sky130_fd_sc_hd__fill_8_N_term_DSP_gds".
+Reading "sky130_fd_sc_hd__fill_4_N_term_DSP_gds".
+Reading "sky130_fd_sc_hd__fill_2_N_term_DSP_gds".
+Reading "sky130_fd_sc_hd__fill_1_N_term_DSP_gds".
+Reading "sky130_fd_sc_hd__tapvpwrvgnd_1_N_term_DSP_gds".
+Reading "N_term_DSP_VIA6".
+Reading "N_term_DSP_VIA5".
+Reading "N_term_DSP_VIA4".
+Reading "N_term_DSP_VIA3".
+Reading "N_term_DSP_VIA2".
+Reading "N_term_DSP_VIA1".
+Reading "N_term_DSP_VIA0".
+Reading "M1M2_PR_M_N_term_DSP_gds".
+Reading "M2M3_PR_N_term_DSP_gds".
+Reading "M1M2_PR_N_term_DSP_gds".
+Reading "L1M1_PR_N_term_DSP_gds".
+Reading "sky130_fd_sc_hd__decap_8_N_term_single_gds".
+Reading "sky130_fd_sc_hd__clkinv_4_N_term_single_gds".
+Reading "sky130_fd_sc_hd__clkbuf_1_N_term_single_gds".
+Reading "sky130_fd_sc_hd__buf_8_N_term_single_gds".
+Reading "sky130_fd_sc_hd__buf_2_N_term_single_gds".
+Reading "sky130_fd_sc_hd__dlygate4sd3_1_N_term_single_gds".
+Reading "sky130_fd_sc_hd__fill_8_N_term_single_gds".
+Reading "sky130_fd_sc_hd__fill_4_N_term_single_gds".
+Reading "sky130_fd_sc_hd__fill_2_N_term_single_gds".
+Reading "sky130_fd_sc_hd__fill_1_N_term_single_gds".
+Reading "sky130_fd_sc_hd__tapvpwrvgnd_1_N_term_single_gds".
+Reading "N_term_single_VIA6".
+Reading "N_term_single_VIA5".
+Reading "N_term_single_VIA4".
+Reading "N_term_single_VIA3".
+Reading "N_term_single_VIA2".
+Reading "N_term_single_VIA1".
+Reading "N_term_single_VIA0".
+Reading "M1M2_PR_M_N_term_single_gds".
+Reading "M2M3_PR_N_term_single_gds".
+Reading "M1M2_PR_N_term_single_gds".
+Reading "L1M1_PR_N_term_single_gds".
+Reading "sky130_fd_sc_hd__decap_8_N_term_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__clkinv_4_N_term_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__clkbuf_1_N_term_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__buf_8_N_term_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__dlygate4sd3_1_N_term_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__dlygate4sd2_1_N_term_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__fill_8_N_term_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__fill_4_N_term_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__fill_2_N_term_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__fill_1_N_term_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__tapvpwrvgnd_1_N_term_RAM_IO_gds".
+Reading "N_term_RAM_IO_VIA6".
+Reading "N_term_RAM_IO_VIA5".
+Reading "N_term_RAM_IO_VIA4".
+Reading "N_term_RAM_IO_VIA3".
+Reading "N_term_RAM_IO_VIA2".
+Reading "N_term_RAM_IO_VIA1".
+Reading "N_term_RAM_IO_VIA0".
+Reading "M1M2_PR_M_N_term_RAM_IO_gds".
+Reading "M3M4_PR_N_term_RAM_IO_gds".
+Reading "M2M3_PR_N_term_RAM_IO_gds".
+Reading "M1M2_PR_N_term_RAM_IO_gds".
+Reading "L1M1_PR_N_term_RAM_IO_gds".
+Reading "sky130_ef_sc_hd__fill_8_RegFile_gds".
+Reading "sky130_ef_sc_hd__fill_12_RegFile_gds".
+Reading "sky130_ef_sc_hd__decap_12_RegFile_gds".
+Moving label "VGND" from space to metal1 in cell sky130_ef_sc_hd__decap_12_RegFile_gds.
+Moving label "VNB" from space to metal1 in cell sky130_ef_sc_hd__decap_12_RegFile_gds.
+Moving label "decap_12" from space to metal1 in cell sky130_ef_sc_hd__decap_12_RegFile_gds.
+Reading "sky130_fd_sc_hd__a22o_1_RegFile_gds".
+Reading "sky130_fd_sc_hd__decap_3_RegFile_gds".
+Reading "sky130_fd_sc_hd__decap_4_RegFile_gds".
+Reading "sky130_fd_sc_hd__decap_8_RegFile_gds".
+Reading "sky130_fd_sc_hd__clkinv_16_RegFile_gds".
+Reading "sky130_fd_sc_hd__clkinv_8_RegFile_gds".
+Reading "sky130_fd_sc_hd__clkinv_4_RegFile_gds".
+Reading "sky130_fd_sc_hd__clkdlybuf4s50_1_RegFile_gds".
+Reading "sky130_fd_sc_hd__clkbuf_4_RegFile_gds".
+Reading "sky130_fd_sc_hd__clkdlybuf4s25_1_RegFile_gds".
+Reading "sky130_fd_sc_hd__clkbuf_1_RegFile_gds".
+Reading "sky130_fd_sc_hd__buf_12_RegFile_gds".
+Reading "sky130_fd_sc_hd__buf_8_RegFile_gds".
+Reading "sky130_fd_sc_hd__buf_4_RegFile_gds".
+Reading "sky130_fd_sc_hd__buf_2_RegFile_gds".
+Reading "sky130_fd_sc_hd__buf_1_RegFile_gds".
+Reading "sky130_fd_sc_hd__dlygate4sd3_1_RegFile_gds".
+Reading "sky130_fd_sc_hd__dlygate4sd2_1_RegFile_gds".
+Reading "sky130_fd_sc_hd__dlxbp_1_RegFile_gds".
+Reading "sky130_fd_sc_hd__diode_2_RegFile_gds".
+Reading "sky130_fd_sc_hd__dfxtp_2_RegFile_gds".
+Reading "sky130_fd_sc_hd__fill_1_RegFile_gds".
+Reading "sky130_fd_sc_hd__mux4_4".
+Reading "sky130_fd_sc_hd__mux4_2_RegFile_gds".
+Reading "sky130_fd_sc_hd__mux4_1".
+Reading "sky130_fd_sc_hd__mux2_4_RegFile_gds".
+Reading "sky130_fd_sc_hd__mux2_1_RegFile_gds".
+Reading "sky130_fd_sc_hd__inv_2_RegFile_gds".
+Reading "sky130_fd_sc_hd__or3_1_RegFile_gds".
+Reading "sky130_fd_sc_hd__or2_2_RegFile_gds".
+Reading "sky130_fd_sc_hd__tapvpwrvgnd_1_RegFile_gds".
+Reading "RegFile_VIA6".
+Reading "RegFile_VIA5".
+Reading "RegFile_VIA4".
+Reading "RegFile_VIA3".
+Reading "RegFile_VIA2".
+Reading "RegFile_VIA1".
+Reading "RegFile_VIA0".
+Reading "M1M2_PR_R_RegFile_gds".
+Reading "M1M2_PR_MR_RegFile_gds".
+Reading "M2M3_PR_R_RegFile_gds".
+Reading "M1M2_PR_M_RegFile_gds".
+Reading "M3M4_PR_RegFile_gds".
+Reading "M2M3_PR_RegFile_gds".
+Reading "L1M1_PR_RegFile_gds".
+Reading "M1M2_PR_RegFile_gds".
+Reading "sky130_ef_sc_hd__fill_8_LUT4AB_gds".
+Reading "sky130_ef_sc_hd__fill_12_LUT4AB_gds".
+Reading "sky130_ef_sc_hd__decap_12_LUT4AB_gds".
+Moving label "VGND" from space to metal1 in cell sky130_ef_sc_hd__decap_12_LUT4AB_gds.
+Moving label "VNB" from space to metal1 in cell sky130_ef_sc_hd__decap_12_LUT4AB_gds.
+Moving label "decap_12" from space to metal1 in cell sky130_ef_sc_hd__decap_12_LUT4AB_gds.
+Reading "sky130_fd_sc_hd__decap_3_LUT4AB_gds".
+Reading "sky130_fd_sc_hd__decap_4_LUT4AB_gds".
+Reading "sky130_fd_sc_hd__decap_8_LUT4AB_gds".
+Reading "sky130_fd_sc_hd__clkinv_16_LUT4AB_gds".
+Reading "sky130_fd_sc_hd__clkinv_8_LUT4AB_gds".
+Reading "sky130_fd_sc_hd__clkinv_4_LUT4AB_gds".
+Reading "sky130_fd_sc_hd__clkbuf_1_LUT4AB_gds".
+Reading "sky130_fd_sc_hd__buf_8_LUT4AB_gds".
+Reading "sky130_fd_sc_hd__buf_2_LUT4AB_gds".
+Reading "sky130_fd_sc_hd__dlygate4sd3_1_LUT4AB_gds".
+Reading "sky130_fd_sc_hd__dlygate4sd2_1_LUT4AB_gds".
+Reading "sky130_fd_sc_hd__dlxbp_1_LUT4AB_gds".
+Reading "sky130_fd_sc_hd__diode_2_LUT4AB_gds".
+Reading "sky130_fd_sc_hd__dfxtp_2_LUT4AB_gds".
+Reading "sky130_fd_sc_hd__fill_1_LUT4AB_gds".
+Reading "sky130_fd_sc_hd__nor2_1_LUT4AB_gds".
+Reading "sky130_fd_sc_hd__mux4_2_LUT4AB_gds".
+Reading "sky130_fd_sc_hd__mux2_4_LUT4AB_gds".
+Reading "sky130_fd_sc_hd__mux2_2_LUT4AB_gds".
+Reading "sky130_fd_sc_hd__mux2_1_LUT4AB_gds".
+Reading "sky130_fd_sc_hd__conb_1_LUT4AB_gds".
+Reading "sky130_fd_sc_hd__inv_2_LUT4AB_gds".
+Reading "sky130_fd_sc_hd__o22a_1_LUT4AB_gds".
+Reading "sky130_fd_sc_hd__tapvpwrvgnd_1_LUT4AB_gds".
+Reading "LUT4AB_VIA6".
+Reading "LUT4AB_VIA5".
+Reading "LUT4AB_VIA4".
+Reading "LUT4AB_VIA3".
+Reading "LUT4AB_VIA2".
+Reading "LUT4AB_VIA1".
+Reading "LUT4AB_VIA0".
+Reading "M1M2_PR_R_LUT4AB_gds".
+Reading "L1M1_PR_R_LUT4AB_gds".
+Reading "M1M2_PR_MR_LUT4AB_gds".
+Reading "M3M4_PR_LUT4AB_gds".
+Reading "M1M2_PR_M_LUT4AB_gds".
+Reading "M2M3_PR_LUT4AB_gds".
+Reading "M1M2_PR_LUT4AB_gds".
+Reading "L1M1_PR_LUT4AB_gds".
+Reading "sky130_fd_sc_hd__decap_3_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__decap_4_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__clkinv_8_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__clkinv_4_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__clkinv_16_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__clkdlybuf4s50_1_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__clkbuf_4_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__clkdlybuf4s25_1_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__clkbuf_1_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__buf_8_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__buf_4_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__buf_2_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__buf_1_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__dlygate4sd3_1_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__dlygate4sd2_1_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__dlxbp_1_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__diode_2_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__dfxtp_2_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__dfxtp_1".
+Reading "sky130_fd_sc_hd__fill_8".
+Reading "sky130_fd_sc_hd__fill_4_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__fill_2_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__fill_1_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__mux4_2_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__mux2_1_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__conb_1_RAM_IO_gds".
+Reading "sky130_fd_sc_hd__tapvpwrvgnd_1_RAM_IO_gds".
+Reading "RAM_IO_VIA6".
+Reading "RAM_IO_VIA5".
+Reading "RAM_IO_VIA4".
+Reading "RAM_IO_VIA3".
+Reading "RAM_IO_VIA2".
+Reading "RAM_IO_VIA1".
+Reading "RAM_IO_VIA0".
+Reading "L1M1_PR_R_RAM_IO_gds".
+Reading "M1M2_PR_MR_RAM_IO_gds".
+Reading "M1M2_PR_R_RAM_IO_gds".
+Reading "M2M3_PR_R".
+Reading "M1M2_PR_M_RAM_IO_gds".
+Reading "M3M4_PR_RAM_IO_gds".
+Reading "M2M3_PR_RAM_IO_gds".
+Reading "L1M1_PR_RAM_IO_gds".
+Reading "M1M2_PR_RAM_IO_gds".
+Reading "sky130_ef_sc_hd__fill_8_DSP_gds".
+Reading "sky130_ef_sc_hd__fill_12_DSP_gds".
+Reading "sky130_ef_sc_hd__decap_12_DSP_gds".
+Moving label "VGND" from space to metal1 in cell sky130_ef_sc_hd__decap_12_DSP_gds.
+Moving label "VNB" from space to metal1 in cell sky130_ef_sc_hd__decap_12_DSP_gds.
+Moving label "decap_12" from space to metal1 in cell sky130_ef_sc_hd__decap_12_DSP_gds.
+Reading "sky130_fd_sc_hd__a32o_1_DSP_gds".
+Reading "sky130_fd_sc_hd__a22o_1_DSP_gds".
+Reading "sky130_fd_sc_hd__a31oi_1_DSP_gds".
+Reading "sky130_fd_sc_hd__a31o_2_DSP_gds".
+Reading "sky130_fd_sc_hd__a22oi_1_DSP_gds".
+Reading "sky130_fd_sc_hd__a21oi_1_DSP_gds".
+Reading "sky130_fd_sc_hd__a21o_1_DSP_gds".
+Reading "sky130_fd_sc_hd__a21bo_2_DSP_gds".
+Reading "sky130_fd_sc_hd__a2bb2oi_1_DSP_gds".
+Reading "sky130_fd_sc_hd__a2bb2o_1_DSP_gds".
+Reading "sky130_fd_sc_hd__and4_1_DSP_gds".
+Reading "sky130_fd_sc_hd__and2b_1_DSP_gds".
+Reading "sky130_fd_sc_hd__and2_1_DSP_gds".
+Reading "sky130_fd_sc_hd__a221o_1_DSP_gds".
+Reading "sky130_fd_sc_hd__decap_3".
+Reading "sky130_fd_sc_hd__decap_4".
+Reading "sky130_fd_sc_hd__decap_8_DSP_gds".
+Reading "sky130_fd_sc_hd__clkinv_4_DSP_gds".
+Reading "sky130_fd_sc_hd__clkdlybuf4s50_1_DSP_gds".
+Reading "sky130_fd_sc_hd__clkbuf_4_DSP_gds".
+Reading "sky130_fd_sc_hd__clkdlybuf4s25_1_DSP_gds".
+Reading "sky130_fd_sc_hd__clkbuf_1_DSP_gds".
+Reading "sky130_fd_sc_hd__buf_12_DSP_gds".
+Reading "sky130_fd_sc_hd__buf_8_DSP_gds".
+Reading "sky130_fd_sc_hd__buf_2_DSP_gds".
+Reading "sky130_fd_sc_hd__buf_1_DSP_gds".
+Reading "sky130_fd_sc_hd__dlygate4sd3_1_DSP_gds".
+Reading "sky130_fd_sc_hd__dlygate4sd2_1_DSP_gds".
+Reading "sky130_fd_sc_hd__dlxbp_1".
+Reading "sky130_fd_sc_hd__diode_2_DSP_gds".
+Reading "sky130_fd_sc_hd__dfxtp_2_DSP_gds".
+Reading "sky130_fd_sc_hd__fill_1_DSP_gds".
+Reading "sky130_fd_sc_hd__nor2_1_DSP_gds".
+Reading "sky130_fd_sc_hd__mux4_2".
+Reading "sky130_fd_sc_hd__nand2_1_DSP_gds".
+Reading "sky130_fd_sc_hd__mux2_4_DSP_gds".
+Reading "sky130_fd_sc_hd__mux2_2_DSP_gds".
+Reading "sky130_fd_sc_hd__mux2_1_DSP_gds".
+Reading "sky130_fd_sc_hd__conb_1_DSP_gds".
+Reading "sky130_fd_sc_hd__inv_2_DSP_gds".
+Reading "sky130_fd_sc_hd__o32a_1_DSP_gds".
+Reading "sky130_fd_sc_hd__o31a_1_DSP_gds".
+Reading "sky130_fd_sc_hd__o22ai_1_DSP_gds".
+Reading "sky130_fd_sc_hd__o22a_1_DSP_gds".
+Reading "sky130_fd_sc_hd__o21ba_2".
+Reading "sky130_fd_sc_hd__o21ai_1_DSP_gds".
+Reading "sky130_fd_sc_hd__o21a_1_DSP_gds".
+Reading "sky130_fd_sc_hd__o2bb2a_1_DSP_gds".
+Reading "sky130_fd_sc_hd__or4_1_DSP_gds".
+Reading "sky130_fd_sc_hd__or3_1_DSP_gds".
+Reading "sky130_fd_sc_hd__or2b_1_DSP_gds".
+Reading "sky130_fd_sc_hd__or2_2_DSP_gds".
+Reading "sky130_fd_sc_hd__o221a_2_DSP_gds".
+Reading "sky130_fd_sc_hd__tapvpwrvgnd_1_DSP_gds".
+Reading "sky130_fd_sc_hd__xnor2_1_DSP_gds".
+Reading "sky130_fd_sc_hd__xor2_1_DSP_gds".
+Reading "DSP_VIA6".
+Reading "DSP_VIA5".
+Reading "DSP_VIA4".
+Reading "DSP_VIA3".
+Reading "DSP_VIA2".
+Reading "DSP_VIA1".
+Reading "DSP_VIA0".
+Reading "L1M1_PR_R_DSP_gds".
+Reading "M1M2_PR_MR_DSP_gds".
+Reading "M1M2_PR_R_DSP_gds".
+Reading "M3M4_PR_DSP_gds".
+Reading "M2M3_PR_DSP_gds".
+Reading "M1M2_PR_M_DSP_gds".
+Reading "L1M1_PR_DSP_gds".
+Reading "M1M2_PR_DSP_gds".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_40".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_39".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_row_addr_dff".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_col_addr_dff".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_wmask_dff".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_cr_3".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_control_logic_rw".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_cr_5".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_control_logic_r".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_cr_4".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_bank".
+Reading "sky130_fd_sc_hd__decap_6".
+Reading "sky130_fd_sc_hd__fill_2".
+Reading "sky130_fd_sc_hd__fill_4".
+Reading "sky130_fd_sc_hd__clkdlybuf4s15_1".
+Reading "flexbex_ibex_core".
+    5000 uses
+    10000 uses
+    15000 uses
+    20000 uses
+    25000 uses
+    30000 uses
+    35000 uses
+    40000 uses
+    45000 uses
+    50000 uses
+    55000 uses
+    60000 uses
+    65000 uses
+    70000 uses
+    75000 uses
+    80000 uses
+    85000 uses
+    90000 uses
+    95000 uses
+    100000 uses
+    105000 uses
+    110000 uses
+    115000 uses
+    120000 uses
+    125000 uses
+    130000 uses
+    135000 uses
+    140000 uses
+    145000 uses
+    150000 uses
+    155000 uses
+    160000 uses
+    165000 uses
+    170000 uses
+    175000 uses
+    180000 uses
+    185000 uses
+    190000 uses
+    195000 uses
+Reading "ibex_top".
+    5000 uses
+    10000 uses
+    15000 uses
+    20000 uses
+    25000 uses
+    30000 uses
+    35000 uses
+    40000 uses
+    45000 uses
+    50000 uses
+    55000 uses
+    60000 uses
+    65000 uses
+    70000 uses
+    75000 uses
+    80000 uses
+    85000 uses
+    90000 uses
+    95000 uses
+    100000 uses
+    105000 uses
+    110000 uses
+    115000 uses
+    120000 uses
+    125000 uses
+    130000 uses
+    135000 uses
+    140000 uses
+    145000 uses
+    150000 uses
+    155000 uses
+    160000 uses
+    165000 uses
+    170000 uses
+    175000 uses
+    180000 uses
+    185000 uses
+    190000 uses
+    195000 uses
+    200000 uses
+    205000 uses
+    210000 uses
+    215000 uses
+    220000 uses
+    225000 uses
+    230000 uses
+    235000 uses
+    240000 uses
+    245000 uses
+Reading "E_CPU_IO_bot".
+    5000 uses
+Reading "W_CPU_IO_bot".
+    5000 uses
+Reading "E_CPU_IO".
+Reading "W_CPU_IO".
+Reading "W_IO".
+    5000 uses
+Reading "S_term_single2".
+Reading "S_term_DSP".
+Reading "S_term_single".
+Reading "S_term_RAM_IO".
+Reading "N_term_single2".
+Reading "N_term_DSP".
+Reading "N_term_single".
+Reading "N_term_RAM_IO".
+Reading "RegFile".
+    5000 uses
+    10000 uses
+    15000 uses
+    20000 uses
+    25000 uses
+Reading "LUT4AB".
+    5000 uses
+    10000 uses
+    15000 uses
+    20000 uses
+Reading "RAM_IO".
+    5000 uses
+    10000 uses
+    15000 uses
+Reading "DSP".
+    5000 uses
+    10000 uses
+    15000 uses
+    20000 uses
+    25000 uses
+    30000 uses
+    35000 uses
+    40000 uses
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8".
+Warning:  cell sky130_sram_1kbyte_1rw1r_32x256_8 already existed before reading GDS!
+Using pre-existing cell definition
+Reading "sky130_ef_sc_hd__fill_8".
+Reading "sky130_ef_sc_hd__fill_12".
+Reading "sky130_ef_sc_hd__decap_12".
+Moving label "VGND" from space to metal1 in cell sky130_ef_sc_hd__decap_12.
+Moving label "VNB" from space to metal1 in cell sky130_ef_sc_hd__decap_12.
+Moving label "decap_12" from space to metal1 in cell sky130_ef_sc_hd__decap_12.
+Reading "sky130_fd_sc_hd__a41o_1".
+Reading "sky130_fd_sc_hd__a32o_1".
+Reading "sky130_fd_sc_hd__a22o_1".
+Reading "sky130_fd_sc_hd__a31oi_1".
+Reading "sky130_fd_sc_hd__a31o_2".
+Reading "sky130_fd_sc_hd__a22oi_1".
+Reading "sky130_fd_sc_hd__a22oi_2".
+Reading "sky130_fd_sc_hd__a21oi_1".
+Reading "sky130_fd_sc_hd__a21o_1".
+Reading "sky130_fd_sc_hd__a21boi_1".
+Reading "sky130_fd_sc_hd__a21bo_2".
+Reading "sky130_fd_sc_hd__a2bb2oi_2".
+Reading "sky130_fd_sc_hd__a2bb2oi_1".
+Reading "sky130_fd_sc_hd__a2bb2o_1".
+Reading "sky130_fd_sc_hd__and4b_1".
+Reading "sky130_fd_sc_hd__and4_1".
+Reading "sky130_fd_sc_hd__and3b_1".
+Reading "sky130_fd_sc_hd__and3_1".
+Reading "sky130_fd_sc_hd__and3_2".
+Reading "sky130_fd_sc_hd__and2b_1".
+Reading "sky130_fd_sc_hd__and2_1".
+Reading "sky130_fd_sc_hd__a221o_1".
+Reading "sky130_fd_sc_hd__a311o_1".
+Reading "sky130_fd_sc_hd__a211oi_1".
+Reading "sky130_fd_sc_hd__a211o_1".
+Reading "sky130_fd_sc_hd__dfrtp_2".
+Reading "sky130_fd_sc_hd__decap_8".
+Reading "sky130_fd_sc_hd__clkinv_16".
+Reading "sky130_fd_sc_hd__clkinv_8".
+Reading "sky130_fd_sc_hd__clkinv_4".
+Reading "sky130_fd_sc_hd__clkinv_2".
+Reading "sky130_fd_sc_hd__clkinv_1".
+Reading "sky130_fd_sc_hd__clkdlybuf4s50_2".
+Reading "sky130_fd_sc_hd__clkdlybuf4s50_1".
+Reading "sky130_fd_sc_hd__clkbuf_2".
+Reading "sky130_fd_sc_hd__clkbuf_4".
+Reading "sky130_fd_sc_hd__clkbuf_8".
+Reading "sky130_fd_sc_hd__clkdlybuf4s18_2".
+Reading "sky130_fd_sc_hd__clkdlybuf4s25_1".
+Reading "sky130_fd_sc_hd__clkdlybuf4s25_2".
+Reading "sky130_fd_sc_hd__clkbuf_1".
+Reading "sky130_fd_sc_hd__buf_12".
+Reading "sky130_fd_sc_hd__buf_8".
+Reading "sky130_fd_sc_hd__buf_6".
+Reading "sky130_fd_sc_hd__buf_4".
+Reading "sky130_fd_sc_hd__buf_2".
+Reading "sky130_fd_sc_hd__buf_1".
+Reading "sky130_fd_sc_hd__dlygate4sd3_1".
+Reading "sky130_fd_sc_hd__dlygate4sd2_1".
+Reading "sky130_fd_sc_hd__diode_2".
+Reading "sky130_fd_sc_hd__dfxtp_2".
+Reading "sky130_fd_sc_hd__dfstp_2".
+Reading "sky130_fd_sc_hd__inv_8".
+Reading "sky130_fd_sc_hd__inv_12".
+Reading "sky130_fd_sc_hd__inv_6".
+Reading "sky130_fd_sc_hd__inv_4".
+Reading "sky130_fd_sc_hd__fill_1".
+Reading "sky130_fd_sc_hd__nor3_2".
+Reading "sky130_fd_sc_hd__nor3_1".
+Reading "sky130_fd_sc_hd__nor2_1".
+Reading "sky130_fd_sc_hd__nand4b_1".
+Reading "sky130_fd_sc_hd__nand4_1".
+Reading "sky130_fd_sc_hd__nand3b_1".
+Reading "sky130_fd_sc_hd__nand2b_1".
+Reading "sky130_fd_sc_hd__nand2_1".
+Reading "sky130_fd_sc_hd__mux2_4".
+Reading "sky130_fd_sc_hd__mux2_2".
+Reading "sky130_fd_sc_hd__mux2_1".
+Reading "sky130_fd_sc_hd__conb_1".
+Reading "sky130_fd_sc_hd__inv_2".
+Reading "sky130_fd_sc_hd__nand2_2".
+Reading "sky130_fd_sc_hd__nor2_2".
+Reading "sky130_fd_sc_hd__o41a_1".
+Reading "sky130_fd_sc_hd__o32a_1".
+Reading "sky130_fd_sc_hd__o31a_1".
+Reading "sky130_fd_sc_hd__o22ai_1".
+Reading "sky130_fd_sc_hd__o22a_1".
+Reading "sky130_fd_sc_hd__o21ai_1".
+Reading "sky130_fd_sc_hd__o21a_1".
+Reading "sky130_fd_sc_hd__o2bb2ai_1".
+Reading "sky130_fd_sc_hd__o2bb2a_1".
+Reading "sky130_fd_sc_hd__nor4_1".
+Reading "sky130_fd_sc_hd__or4bb_1".
+Reading "sky130_fd_sc_hd__or4b_2".
+Reading "sky130_fd_sc_hd__or4_4".
+Reading "sky130_fd_sc_hd__or4_2".
+Reading "sky130_fd_sc_hd__or4_1".
+Reading "sky130_fd_sc_hd__or3b_4".
+Reading "sky130_fd_sc_hd__or3b_2".
+Reading "sky130_fd_sc_hd__or3_4".
+Reading "sky130_fd_sc_hd__or3_2".
+Reading "sky130_fd_sc_hd__or3_1".
+Reading "sky130_fd_sc_hd__or2b_1".
+Reading "sky130_fd_sc_hd__or2_4".
+Reading "sky130_fd_sc_hd__or2_2".
+Reading "sky130_fd_sc_hd__o2111ai_1".
+Reading "sky130_fd_sc_hd__o311a_1".
+Reading "sky130_fd_sc_hd__o2111a_1".
+Reading "sky130_fd_sc_hd__o221ai_1".
+Reading "sky130_fd_sc_hd__o221a_2".
+Reading "sky130_fd_sc_hd__o211ai_1".
+Reading "sky130_fd_sc_hd__o211a_2".
+Reading "sky130_fd_sc_hd__tapvpwrvgnd_1".
+Reading "sky130_fd_sc_hd__xnor2_1".
+Reading "sky130_fd_sc_hd__xor2_1".
+Reading "eFPGA_CPU_top_VIA36".
+Reading "eFPGA_CPU_top_VIA35".
+Reading "eFPGA_CPU_top_VIA34".
+Reading "eFPGA_CPU_top_VIA33".
+Reading "eFPGA_CPU_top_VIA32".
+Reading "eFPGA_CPU_top_VIA31".
+Reading "eFPGA_CPU_top_VIA30".
+Reading "eFPGA_CPU_top_VIA29".
+Reading "eFPGA_CPU_top_VIA28".
+Reading "eFPGA_CPU_top_VIA27".
+Reading "eFPGA_CPU_top_VIA26".
+Reading "eFPGA_CPU_top_VIA25".
+Reading "eFPGA_CPU_top_VIA24".
+Reading "eFPGA_CPU_top_VIA23".
+Reading "eFPGA_CPU_top_VIA22".
+Reading "eFPGA_CPU_top_VIA21".
+Reading "eFPGA_CPU_top_VIA20".
+Reading "eFPGA_CPU_top_VIA19".
+Reading "eFPGA_CPU_top_VIA18".
+Reading "eFPGA_CPU_top_VIA17".
+Reading "eFPGA_CPU_top_VIA16".
+Reading "eFPGA_CPU_top_VIA15".
+Reading "eFPGA_CPU_top_VIA14".
+Reading "eFPGA_CPU_top_VIA13".
+Reading "eFPGA_CPU_top_VIA12".
+Reading "eFPGA_CPU_top_VIA11".
+Reading "eFPGA_CPU_top_VIA10".
+Reading "eFPGA_CPU_top_VIA9".
+Reading "eFPGA_CPU_top_VIA8".
+Reading "eFPGA_CPU_top_VIA7".
+Reading "eFPGA_CPU_top_VIA6".
+Reading "eFPGA_CPU_top_VIA5".
+Reading "eFPGA_CPU_top_VIA4".
+Reading "eFPGA_CPU_top_VIA3".
+Reading "eFPGA_CPU_top_VIA2".
+Reading "eFPGA_CPU_top_VIA1".
+Reading "eFPGA_CPU_top_VIA0".
+Reading "L1M1_PR_R".
+Reading "M1M2_PR_MR".
+Reading "M1M2_PR_R".
+Reading "M1M2_PR_M".
+Reading "M3M4_PR".
+Reading "M2M3_PR".
+Reading "L1M1_PR".
+Reading "M1M2_PR".
+Reading "eFPGA_CPU_top".
+    5000 uses
+    10000 uses
+    15000 uses
+    20000 uses
+    25000 uses
+    30000 uses
+    35000 uses
+    40000 uses
+    45000 uses
+    50000 uses
+    55000 uses
+    60000 uses
+    65000 uses
+    70000 uses
+    75000 uses
+    80000 uses
+    85000 uses
+    90000 uses
+    95000 uses
+    100000 uses
+    105000 uses
+    110000 uses
+    115000 uses
+    120000 uses
+    125000 uses
+    130000 uses
+    135000 uses
+    140000 uses
+    145000 uses
+    150000 uses
+    155000 uses
+    160000 uses
+    165000 uses
+    170000 uses
+    175000 uses
+    180000 uses
+    185000 uses
+    190000 uses
+    195000 uses
+    200000 uses
+    205000 uses
+    210000 uses
+    215000 uses
+    220000 uses
+    225000 uses
+    230000 uses
+    235000 uses
+    240000 uses
+    245000 uses
+    250000 uses
+    255000 uses
+    260000 uses
+    265000 uses
+    270000 uses
+    275000 uses
+    280000 uses
+    285000 uses
+    290000 uses
+    295000 uses
+    300000 uses
+    305000 uses
+    310000 uses
+    315000 uses
+    320000 uses
+    325000 uses
+    330000 uses
+    335000 uses
+Reading "user_project_wrapper".
+[INFO]: Loading user_project_wrapper
+
+DRC style is now "drc(full)"
+Loading DRC CIF style.
+No errors found.
+[INFO]: COUNT: 0
+[INFO]: Should be divided by 3 or 4
+[INFO]: DRC Checking DONE (/mnt/uffs/user/u5221_nguyenv/design/icesoc/jobs/mpw_precheck/c0944096-2cc7-4f79-834c-dceb1928a2a5/outputs/reports/magic_drc_check.drc.report)
+[INFO]: Saving mag view with DRC errors(/mnt/uffs/user/u5221_nguyenv/design/icesoc/jobs/mpw_precheck/c0944096-2cc7-4f79-834c-dceb1928a2a5/outputs/user_project_wrapper.magic.drc.mag)
+[INFO]: Saved

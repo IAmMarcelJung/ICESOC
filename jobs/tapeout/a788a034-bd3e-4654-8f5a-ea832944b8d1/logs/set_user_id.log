@@ -1,0 +1,8 @@
+Project Chip ID is: 295314
+Setting Project Chip ID to: 00048192
+Step 1:  Modify GDS of the user_id_programming subcell
+Done!
+Step 2:  Add user project ID parameter to verilog.
+Done!
+Step 3:  Add user project ID text to top level layout.
+Done!

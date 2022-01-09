@@ -1,0 +1,72 @@
+       0 791_m1.4 : min. m1 enclosure of mcon : 0.03um
+       0 ct.1: non-ring mcon should be rectangular
+       0 ct.1_a : minimum width of mcon : 0.17um
+       0 ct.1_b : maximum length of mcon : 0.17um
+       0 ct.2 : min. mcon spacing : 0.19um
+       0 ct.4 : mcon should covered by li
+       0 li.1 : min. li width : 0.17um
+       0 li.3 : min. li spacing : 0.17um
+       0 li.5 : min. li enclosure of licon of 2 adjacent edges : 0.08um
+       0 li.6 : min. li area : 0.0561um²
+       0 m1.1 : min. m1 width : 0.14um
+       0 m1.2 : min. m1 spacing : 0.14um
+       0 m1.3ab : min. 3um.m1 spacing m1 : 0.28um
+       0 m1.4 : mcon periphery must be enclosed by m1
+       0 m1.4a : min. m1 enclosure of mcon for specific cells : 0.005um
+       0 m1.4a_a : mcon periph must be enclosed by met1 for specific cells
+       0 m1.5 : min. m1 enclosure of mcon of 2 adjacent edges : 0.06um
+       0 m1.6 : min. m1 area : 0.083um²
+       0 m1.7 : min. m1 with holes area : 0.14um²
+       0 m2.1 : min. m2 width : 0.14um
+       0 m2.2 : min. m2 spacing : 0.14um
+       0 m2.3ab : min. 3um.m2 spacing m2 : 0.28um
+       0 m2.4 : min. m2 enclosure of via : 0.055um
+       0 m2.4_a : via in periphery must be enclosed by met2
+       0 m2.5 : min. m2 enclosure of via of 2 adjacent edges : 0.085um
+       0 m2.6 : min. m2 area : 0.0676um²
+       0 m2.7 : min. m2 holes area : 0.14um²
+       0 m3.1 : min. m3 width : 0.3um
+       0 m3.2 : min. m3 spacing : 0.3um
+       0 m3.3cd : min. 3um.m3 spacing m3 : 0.4um
+       0 m3.4 : min. m3 enclosure of via2 : 0.065um
+       0 m3.4_a : via2 must be enclosed by met3
+       0 m4.1 : min. m4 width : 0.3um
+       0 m4.2 : min. m4 spacing : 0.3um
+       0 m4.3 : min. m4 enclosure of via3 : 0.065um
+       0 m4.3_a : via3 must be enclosed by met4
+       0 m4.4a : min. m4 area : 0.240um²
+       0 m4.5ab : min. 3um.m4 spacing m4 : 0.4um
+       0 m5.1 : min. m5 width : 1.6um
+       0 m5.2 : min. m5 spacing : 1.6um
+       0 m5.3 : min. m5 enclosure of via4 : 0.31um
+       0 m5.3_a : via must be enclosed by m5
+       0 m5.4 : min. m5 area : 4.0um²
+       0 pad.2 : min. pad spacing : 1.27um
+       0 via2.1a : via2 outside of moduleCut should be rectangular
+       0 via2.1a_a : min. width of via2 outside of moduleCut : 0.2um
+       0 via2.1a_b : maximum length of via2 : 0.2um
+       0 via2.2 : min. via2 spacing : 0.2um
+       0 via2.4 : min. m2 enclosure of via2 : 0.04um
+       0 via2.4_a : via must be enclosed by met2
+       0 via2.5 : min. m3 enclosure of via2 of 2 adjacent edges : 0.085um
+       0 via3.1 : via3 outside of moduleCut should be rectangular
+       0 via3.1_a : min. width of via3 outside of moduleCut : 0.2um
+       0 via3.1_b : maximum length of via3 : 0.2um
+       0 via3.2 : min. via3 spacing : 0.2um
+       0 via3.4 : min. m3 enclosure of via3 : 0.06um
+       0 via3.4_a : non-ring via3 must be enclosed by met3
+       0 via3.5 : min. m3 enclosure of via3 of 2 adjacent edges : 0.09um
+       0 via4.1 : via4 outside of moduleCut should be rectangular
+       0 via4.1_a : min. width of via4 outside of moduleCut : 0.8um
+       0 via4.1_b : maximum length of via4 : 0.8um
+       0 via4.2 : min. via4 spacing : 0.8um
+       0 via4.4 : min. m4 enclosure of via4 : 0.19um
+       0 via4.4_a : m4 must enclose all via4
+       0 via.1a : via outside of moduleCut should be rectangular
+       0 via.1a_a : min. width of via outside of moduleCut : 0.15um
+       0 via.1a_b : maximum length of via : 0.15um
+       0 via.2 : min. via spacing : 0.17um
+       0 via.4a : min. m1 enclosure of 0.15um via : 0.055um
+       0 via.4a_a : 0.15um via must be enclosed by met1
+       0 via.5a : min. m1 enclosure of 0.15um via of 2 adjacent edges : 0.085um
+       0 total error(s) among 71 error type(s), 0 non-zero type(s)
