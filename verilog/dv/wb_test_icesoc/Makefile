@@ -106,6 +106,6 @@ endif
 # ---- Clean ----
 
 clean:
-	rm -f *.elf *.hex *.bin *.vvp *.vcd *.log
+	rm -rf *.elf *.hex *.bin *.vvp *.vcd *.log ibex_prog.h ibex_prog/build
 
 .PHONY: clean hex all
