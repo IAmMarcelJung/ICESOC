@@ -91,6 +91,15 @@ module icesoc_top #(
     wire                                       slave_data_rvalid_to_inter;
     wire                                       slave_data_gnt_to_inter;
 
+    wire [ ROMASTERS - 1:0] master_data_req_to_inter_ro;
+    wire [(ROMASTERS * ROMASTER_ADDR_WIDTH) - 1:0] master_data_addr_to_inter_ro;
+    wire [(ROMASTERS * 32) - 1:0] master_data_rdata_to_inter_ro;
+    wire [ ROMASTERS - 1:0] master_data_rvalid_to_inter_ro;
+    wire [ ROMASTERS - 1:0] master_data_gnt_to_inter_ro;
+
+    wire [ ROSLAVES - 1:0] slave_data_req_to_inter_ro;
+    wire [(ROSLAVES * SLAVE_ADDR_WIDTH) - 1:0] slave_data_addr_to_inter_ro;
+    wire [(ROSLAVES * 32) - 1:0] slave_data_rdata_to_inter_ro;
 ibex_top #(
     .PMPEnable        (1'b0),
     .RV32E            (1'b0),    //None
@@ -207,15 +216,6 @@ flexbex_ibex_core ibex_core_2 (
 assign master_data_addr_to_inter[  (2 * ADDR_WIDTH) - 1 : 1 * ADDR_WIDTH]= {flexbex_addr_o[ADDR_WIDTH-1:2], 2'b00};
 // Intructions read only interconnection
 
-    wire [ ROMASTERS - 1:0] master_data_req_to_inter_ro;
-    wire [(ROMASTERS * ROMASTER_ADDR_WIDTH) - 1:0] master_data_addr_to_inter_ro;
-    wire [(ROMASTERS * 32) - 1:0] master_data_rdata_to_inter_ro;
-    wire [ ROMASTERS - 1:0] master_data_rvalid_to_inter_ro;
-    wire [ ROMASTERS - 1:0] master_data_gnt_to_inter_ro;
-
-    wire [ ROSLAVES - 1:0] slave_data_req_to_inter_ro;
-    wire [(ROSLAVES * SLAVE_ADDR_WIDTH) - 1:0] slave_data_addr_to_inter_ro;
-    wire [(ROSLAVES * 32) - 1:0] slave_data_rdata_to_inter_ro;
 
 inter_read inter_read_i
 (
