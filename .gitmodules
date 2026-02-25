@@ -1,0 +1,3 @@
+[submodule "caravel-lite"]
+	path = caravel-lite
+	url = git@github.com:IAmMarcelJung/caravel-lite.git
