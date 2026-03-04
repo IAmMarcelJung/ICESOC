@@ -5,7 +5,7 @@ OUTPUT_ARCH(riscv)
 MEMORY
 {
     ram         : ORIGIN = 0x00000000, LENGTH = 0x800     /* 2  kB */
-    stack       : ORIGIN = 0x00000700, LENGTH = 0x100     /* 256 B */
+    stack       : ORIGIN = 0x00000480, LENGTH = 0x100     /* 256 B */
 }
 
 /* Stack */
