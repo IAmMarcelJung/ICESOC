@@ -31,8 +31,12 @@ module wb_test_icesoc_tb;
 	wire gpio;
 	wire [37:0] mprj_io;
 	wire [15:0] checkbits;
+	wire [31:0]sram_address;
+	wire [5:0]i_counter;
 
 	assign checkbits = mprj_io[31:16];
+	assign sram_address = mprj_io[31:0];
+	assign i_counter = mprj_io[37:32];
 
 	//assign mprj_io[3] = (CSB == 1'b1) ? 1'b1 : 1'bz;
 
@@ -49,10 +53,10 @@ module wb_test_icesoc_tb;
 
 	initial begin
                 $dumpfile("wb_test_icesoc.vcd");
-                $dumpvars(0, wb_test_icesoc_tb.uut.mprj);
+                $dumpvars(0, wb_test_icesoc_tb);
 
 		// Repeat cycles of 1000 clock edges as needed to complete testbench
-                repeat (700) begin
+                repeat (100) begin
 			repeat (1000) @(posedge clock);
                         $display("+1000 cycles");
 		end
@@ -68,7 +72,7 @@ module wb_test_icesoc_tb;
 
         reg [31:0] checkpoint;
         reg [ 7:0] ibex_ctrl;
-	initial begin        
+	initial begin
            ibex_ctrl = 8'b0000_0110;
 	   wait(checkbits == 16'h0001);
 	   $display("Monitor: MPRJ-Logic WB Started");
@@ -85,6 +89,7 @@ module wb_test_icesoc_tb;
            #7000;
            $finish;
         end
+
 
         initial begin
            wait(checkbits == 16'h0005);
@@ -119,8 +124,12 @@ module wb_test_icesoc_tb;
 		power4 <= 1'b1;
 	end
 
-	always @(mprj_io) begin
+	always @(mprj_io[7:0]) begin
 		#1 $display("MPRJ-IO state = %b ", mprj_io[7:0]);
+	end
+
+	always @(i_counter) begin
+		#1 $display("Counter: %b ", i_counter);
 	end
 
 	wire flash_csb;
