@@ -154,10 +154,10 @@ void main() {
   }
 
   while (1) {
-    if (sram2[SRAM_LAST_ACCESSIBLE_WORD_ADDRESS] == 0xDEADBEEF)
-      reg_mprj_datal = 0x00040000; // simulation end with failed test
-    else if (sram2[SRAM_LAST_ACCESSIBLE_WORD_ADDRESS] == 0xCAFEBABE)
-      reg_mprj_datal = 0x00050000; // simulation end with successful test
+    if (sram2[0] == 0xDEADBEEF)
+      reg_mprj_datal = 0x00050000; // simulation end with failed test
+    else if (sram2[0] == 0xCAFEBABE)
+      reg_mprj_datal = 0x00040000; // simulation end with successful test
     else {
       reg_mprj_datal = 0x00060000; // simulation end with failed test
     }
