@@ -4,6 +4,8 @@ precheck_results
 *.vcd
 *.fst
 *.gtkw
+*.surf.ron
+
 
 
 # Iverilog files
