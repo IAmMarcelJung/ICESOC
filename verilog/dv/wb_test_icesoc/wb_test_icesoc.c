@@ -15,10 +15,6 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-// This include is relative to $CARAVEL_PATH (see Makefile)
-// #include "ibex_prog.h"
-// #include "prog_uart.h"
-// #include "load_mem_full.h"
 #include "load_mem.h"
 #include <defs.h>
 #include <gpio_config_io.h>
@@ -30,7 +26,6 @@
                 - Configures MPRJ lower 8-IO pins as outputs
                 - Checks counter value through the wishbone port
 */
-int chk = 0;
 #define SRAM_2_OFFSET 0x100                    // 0x400 / 4
 #define SRAM_LAST_ACCESSIBLE_WORD_ADDRESS 0x3F // 0FF / 4
 #define PROGRAM_START_ADDRESS 0x20             // 0x80 / 4
@@ -56,7 +51,6 @@ void main() {
   /* Set up the housekeeping SPI to be connected internally so	*/
   /* that external pin changes don't affect it.			*/
 
-  // reg_spimaster_control = 0xa002; // Enable, prescaler = 2,
   reg_wb_enable = 1;
   reg_hkspi_disable = 1;
   // connect to housekeeping SPI
