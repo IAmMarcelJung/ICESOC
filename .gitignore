@@ -1,1 +1,22 @@
 precheck_results
+
+# Waveform files
+*.vcd
+*.fst
+*.gtkw
+
+
+# Iverilog files
+*.vvp
+
+# Firmware files
+*.hex
+*.elf
+
+
+# Compiledb-plus database
+compile_commands.json
+
+# Others
+.envrc
+*.bak
