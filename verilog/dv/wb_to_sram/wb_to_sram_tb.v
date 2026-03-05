@@ -24,17 +24,15 @@
 module wb_to_sram_tb;
 	reg clock;
 	reg RSTB;
-	reg CSB;
 	reg power1, power2;
 	reg power3, power4;
 
 	wire gpio;
 	wire [37:0] mprj_io;
-	wire [15:0] checkbits;
+	wire [5:0] checkbits;
 
-	assign checkbits = mprj_io[31:16];
+	assign checkbits = mprj_io[37:32];
 
-	//assign mprj_io[3] = (CSB == 1'b1) ? 1'b1 : 1'bz;
         assign mprj_io[7:0] = 8'b0000_0110;
 
 	// External clock is used by default.  Make this artificially fast for the
@@ -49,10 +47,10 @@ module wb_to_sram_tb;
 
 	initial begin
                 $dumpfile("wb_to_sram.vcd");
-                $dumpvars(0, wb_to_sram_tb.uut.mprj);
+                $dumpvars(0, wb_to_sram_tb);
 
 		// Repeat cycles of 1000 clock edges as needed to complete testbench
-                repeat (300) begin
+                repeat (400) begin
 			repeat (1000) @(posedge clock);
                         $display("+1000 cycles");
 		end
@@ -67,9 +65,9 @@ module wb_to_sram_tb;
 	end
 
 	initial begin
-	   wait(checkbits == 16'h AB60);
+	   wait(checkbits == 6'h1);
 		$display("Monitor: MPRJ-Logic WB Started");
-		wait(checkbits == 16'h AB61);
+		wait(checkbits == 6'h3);
 		`ifdef GL
 	    	$display("Monitor: Mega-Project WB (GL) Passed");
 		`else
@@ -79,9 +77,9 @@ module wb_to_sram_tb;
 	end
 
         initial begin
-            wait(checkbits == 16'h AB60);
-            //$display("Monitor: MPRJ-Logic WB Started");
-            wait(checkbits == 16'h AB62);
+            wait(checkbits == 6'h1);
+            $display("Monitor: MPRJ-Logic WB Started");
+            wait(checkbits == 6'h2);
             `ifdef GL
                 $display("Monitor: Mega-Project WB (GL) reading back Failed");
             `else
@@ -92,11 +90,9 @@ module wb_to_sram_tb;
 
 	initial begin
 		RSTB <= 1'b0;
-		CSB  <= 1'b1;		// Force CSB high
 		#2000;
 		RSTB <= 1'b1;	    	// Release reset
 		#170000;
-		CSB = 1'b0;		// CSB can be released
 	end
 
 	initial begin		// Power-up sequence

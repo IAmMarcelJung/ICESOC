@@ -34,9 +34,27 @@ UPRJ_RTL_IBEXCORE  = $(UPRJ_VERILOG_PATH)/rtl/ibex_core
 UPRJ_RTL_EFPGACORE = $(UPRJ_VERILOG_PATH)/rtl/eFPGA_core
 UPRJ_RTL_EFPGACONF = $(UPRJ_VERILOG_PATH)/rtl/eFPGA_conf
 
-## RISCV GCC 
-GCC_PATH?=/ef/apps/bin
-GCC_PREFIX?=riscv32-unknown-elf
+SRC_FILES := \
+	../riscv_firmware_src/crt0_vex.S \
+	../riscv_firmware_src/isr.c \
+	../riscv_firmware_src/send_packet.c \
+	../riscv_firmware_src/gpio_config_io.c \
+	../riscv_firmware_src/helpers.c \
+	../riscv_firmware_src/stub.c \
+	../riscv_firmware_src/register_actions.c \
+
+# Definitions related to firmware creation
+INCLUDES := \
+		-I ../riscv_firmware_src/ \
+		-I .
+
+CFLAGS := -Os -Wall -Wpedantic -g -mabi=ilp32 -march=rv32i_zicsr -D__vexriscv__ -ffreestanding -nostdlib
+LDSCRIPT := ../riscv_firmware_src/sections.lds
+LDFLAGS := -Wl,-Bstatic,-T,$(LDSCRIPT),--strip-debug
+
+## RISCV GCC
+GCC_PATH?=
+GCC_PREFIX=riscv64-unknown-elf
 
 ## Simulation mode: RTL/GL
 SIM_DEFINES = -DFUNCTIONAL -DSIM
@@ -48,7 +66,7 @@ PATTERN = wb_to_sram
 
 all:  ${PATTERN:=.vcd}
 
-hex:  ${PATTERN:=.hex}
+shex:  ${PATTERN:=.hex}
 
 %.vvp: %_tb.v %.hex
 ifeq ($(SIM),RTL)
@@ -60,30 +78,30 @@ ifeq ($(SIM),RTL)
 	-I $(UPRJ_RTL_EFPGACORE) \
 	-I $(UPRJ_RTL_EFPGACONF) \
 	$< -o $@ -g2012
-else  
+else
 	iverilog $(SIM_DEFINES) -DGL -I $(PDK_PATH) \
-	-I $(CARAVEL_BEHAVIOURAL_MODELS) -I $(CARAVEL_RTL_PATH) -I $(UPRJ_BEHAVIOURAL_MODELS) \
-	-I $(UPRJ_RTL_PATH) \
-	-I $(UPRJ_RTL_ICESOC) \
-	-I $(UPRJ_RTL_IBEXCORE) \
-	-I $(UPRJ_RTL_EFPGACORE) \
-	-I $(UPRJ_RTL_EFPGACONF) \
-	$< -o $@ 
+	-I $(CARAVEL_BEHAVIOURAL_MODELS) -I $(CARAVEL_RTL_PATH) -I $(CARAVEL_VERILOG_PATH) \
+	-I $(UPRJ_BEHAVIOURAL_MODELS) -I$(UPRJ_RTL_PATH)   -I $(UPRJ_VERILOG_PATH) \
+	$< -o $@
 endif
 
 %.vcd: %.vvp
 	vvp $<
 
-%.elf: %.c $(CARAVEL_FIRMWARE_PATH)/sections.lds $(CARAVEL_FIRMWARE_PATH)/start.s check-env
-	${GCC_PATH}/${GCC_PREFIX}-gcc -I $(CARAVEL_PATH) -march=rv32imc -mabi=ilp32 -Wl,-Bstatic,-T,$(CARAVEL_FIRMWARE_PATH)/sections.lds,--strip-debug -ffreestanding -nostdlib -o $@ $(CARAVEL_FIRMWARE_PATH)/start.s $<
+
+%.elf: %.c $(LDSCRIPT) ../riscv_firmware_src/crt0_vex.S check-env
+	${GCC_PATH}${GCC_PREFIX}-gcc $(INCLUDES) $(CFLAGS) $(LDFLAGS) -o $@ $(SRC_FILES) $<
 
 %.hex: %.elf
-	${GCC_PATH}/${GCC_PREFIX}-objcopy -O verilog $< $@ 
+	${GCC_PATH}${GCC_PREFIX}-objcopy -O verilog $< $@
 	# to fix flash base address
-	sed -i 's/@10000000/@00000000/g' $@
+	sed -i 's/@1000/@0000/g' $@
 
 %.bin: %.elf
-	${GCC_PATH}/${GCC_PREFIX}-objcopy -O binary $< /dev/stdout | tail -c +1048577 > $@
+	${GCC_PATH}${GCC_PREFIX}-objcopy -O binary $< $@
+
+# The compiler should either be located at a specific location or available as a global command
+CC := $(or $(wildcard $(GCC_PATH)$(GCC_PREFIX)-gcc), $(shell which $(GCC_PREFIX)-gcc 2>/dev/null))
 
 check-env:
 ifndef PDK_ROOT
@@ -92,8 +110,8 @@ endif
 ifeq (,$(wildcard $(PDK_ROOT)/sky130A))
 	$(error $(PDK_ROOT)/sky130A not found, please install pdk before running make)
 endif
-ifeq (,$(wildcard $(GCC_PATH)/$(GCC_PREFIX)-gcc ))
-	$(error $(GCC_PATH)/$(GCC_PREFIX)-gcc is not found, please export GCC_PATH and GCC_PREFIX before running make)
+ifeq ($(CC),)
+	$(error "Compiler not found in absolute path OR system PATH")
 endif
 # check for efabless style installation
 ifeq (,$(wildcard $(PDK_ROOT)/sky130A/libs.ref/*/verilog))
